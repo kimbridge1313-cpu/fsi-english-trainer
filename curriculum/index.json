@@ -107,13 +107,13 @@
     },
     {
       "id": "ja-lesson-02-demonstratives-and-ownership",
-      "title": "指示代詞與基礎文法",
-      "title_zh": "大家的日本語 第二課",
+      "title": "指示詞與物品所有格",
+      "title_zh": "大家來學日文 · 第 2 課",
       "file": "curriculum/lessons/ja-lesson-02-demonstratives-and-ownership.json",
       "language_track": "ja",
       "language": "ja-JP",
       "status": "ready",
-      "source_dialogue": "《大家的日本語》第二課講義"
+      "source_dialogue": "《大家來學日文》影片 → NotebookLM 學習報告"
     }
   ],
   "languages": [
