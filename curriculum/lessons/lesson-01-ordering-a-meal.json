@@ -1,0 +1,293 @@
+{
+  "schema_version": "1.0.0",
+  "id": "lesson-01-ordering-a-meal",
+  "lesson_number": 1,
+  "title": "Ordering a Meal",
+  "title_zh": "餐廳點餐",
+  "level": "A1-A2",
+  "estimated_minutes": 20,
+  "learning_objective": "能聽懂餐廳服務生的基本提問，點飲料、主餐與配菜，並在餐點缺貨時提出替代選擇。",
+  "source": {
+    "publisher": "U.S. Department of State — American English",
+    "publication": "Everyday Conversations: Learning American English",
+    "source_dialogue": "Dialogue 2-1: Ordering a Meal",
+    "source_page_number": 24,
+    "source_url": "https://americanenglish.state.gov/resources/everyday-conversations-learning-american-english",
+    "source_pdf": "https://americanenglish.state.gov/files/ae/resource_files/b_dialogues_everyday_conversations_english_lo_0.pdf",
+    "source_audio": "https://americanenglish.state.gov/files/ae/resource_files/dialogue_2-01_ordering_a_meal.mp3",
+    "adaptation_notice": "本課參照原教材的點餐情境與語用功能。練習題、替換組合與完整對話為重新編寫的訓練內容；並非官方逐字轉錄，也不是官方 FSI 課程。"
+  },
+  "chunks": [
+    {
+      "id": "c01",
+      "text": "I'll have...",
+      "meaning": "我要點……",
+      "usage": "自然地表達自己的點餐選擇",
+      "example": "I'll have iced tea, please."
+    },
+    {
+      "id": "c02",
+      "text": "to start",
+      "meaning": "先來……（前菜）",
+      "usage": "先點一道開胃菜",
+      "example": "I'll have soup to start."
+    },
+    {
+      "id": "c03",
+      "text": "for my main course",
+      "meaning": "作為我的主餐",
+      "usage": "指定主要餐點",
+      "example": "I'll have the fish for my main course."
+    },
+    {
+      "id": "c04",
+      "text": "with...",
+      "meaning": "搭配……",
+      "usage": "加入配菜或其他選項",
+      "example": "I'll have the fish with potatoes."
+    },
+    {
+      "id": "c05",
+      "text": "instead of...",
+      "meaning": "用……取代……",
+      "usage": "更換配菜",
+      "example": "Could I have rice instead of fries?"
+    },
+    {
+      "id": "c06",
+      "text": "Could I have...?",
+      "meaning": "請問可以給我……嗎？",
+      "usage": "禮貌提出點餐要求",
+      "example": "Could I have iced tea, please?"
+    },
+    {
+      "id": "c07",
+      "text": "That's all.",
+      "meaning": "就這些了",
+      "usage": "表達已點完餐",
+      "example": "No, that's all. Thank you."
+    }
+  ],
+  "drills": {
+    "substitution": {
+      "instruction": "固定句型不變，只替換提示詞。先聽詞組，再自己說完整句。",
+      "pattern": "I'll have ____, please.",
+      "items": [
+        {
+          "cue": "iced tea",
+          "answer": "I'll have iced tea, please."
+        },
+        {
+          "cue": "lemonade",
+          "answer": "I'll have lemonade, please."
+        },
+        {
+          "cue": "tomato soup",
+          "answer": "I'll have tomato soup, please."
+        },
+        {
+          "cue": "roast beef",
+          "answer": "I'll have roast beef, please."
+        },
+        {
+          "cue": "grilled fish",
+          "answer": "I'll have grilled fish, please."
+        },
+        {
+          "cue": "mashed potatoes",
+          "answer": "I'll have mashed potatoes, please."
+        },
+        {
+          "cue": "a small salad",
+          "answer": "I'll have a small salad, please."
+        },
+        {
+          "cue": "a cup of coffee",
+          "answer": "I'll have a cup of coffee, please."
+        },
+        {
+          "cue": "a bowl of soup",
+          "answer": "I'll have a bowl of soup, please."
+        },
+        {
+          "cue": "the chicken sandwich",
+          "answer": "I'll have the chicken sandwich, please."
+        }
+      ]
+    },
+    "buildup": {
+      "instruction": "每一步只增加一小段資訊，重複說出整句。",
+      "items": [
+        {
+          "label": "點主餐與配菜",
+          "steps": [
+            "I'll have the fish.",
+            "I'll have the fish with potatoes.",
+            "I'll have the fish with potatoes and salad."
+          ]
+        },
+        {
+          "label": "先點前菜",
+          "steps": [
+            "I'll have soup.",
+            "I'll have tomato soup.",
+            "I'll have tomato soup to start."
+          ]
+        },
+        {
+          "label": "要求替換",
+          "steps": [
+            "I'll have the chicken sandwich.",
+            "I'll have the chicken sandwich with rice.",
+            "I'll have the chicken sandwich with rice instead of fries."
+          ]
+        }
+      ]
+    },
+    "transformation": {
+      "instruction": "先理解原句，再依照規則轉換，最後核對參考答案。",
+      "items": [
+        {
+          "original": "You ordered the fish.",
+          "rule": "轉成一般疑問句",
+          "answer": "Did you order the fish?"
+        },
+        {
+          "original": "I ordered the beef.",
+          "rule": "轉成否定句",
+          "answer": "I didn't order the beef."
+        },
+        {
+          "original": "I want iced tea.",
+          "rule": "改成禮貌點餐的疑問句",
+          "answer": "Could I have iced tea, please?"
+        },
+        {
+          "original": "She wants fries.",
+          "rule": "轉成一般疑問句",
+          "answer": "Does she want fries?"
+        },
+        {
+          "original": "They need more time.",
+          "rule": "轉成否定句",
+          "answer": "They don't need more time."
+        },
+        {
+          "original": "I would like salad.",
+          "rule": "縮寫 would",
+          "answer": "I'd like salad."
+        }
+      ]
+    },
+    "response": {
+      "instruction": "系統說 A，你先開口回答 B。一次只做一組；相同問答連續三輪，逐輪加快播放速度。",
+      "rates": [
+        0.75,
+        0.95,
+        1.15
+      ],
+      "pairs": [
+        {
+          "a": "Would you like something to drink?",
+          "b": "I'll have iced tea, please."
+        },
+        {
+          "a": "Are you ready to order?",
+          "b": "Yes, I'm ready."
+        },
+        {
+          "a": "What would you like for your main course?",
+          "b": "I'll have the fish with potatoes."
+        },
+        {
+          "a": "How would you like your steak cooked?",
+          "b": "Well done, please."
+        },
+        {
+          "a": "Would you like anything else?",
+          "b": "No, that's all. Thank you."
+        }
+      ]
+    }
+  },
+  "conversation": {
+    "instruction": "完成一整段對話。每次只呈現系統 A 的一句話；你回答後才顯示參考答案，然後進下一句。三輪包含引導、無提示、情境變化。",
+    "rounds": [
+      {
+        "name": "引導",
+        "rate": 0.8,
+        "scenario": "你在餐廳點餐。",
+        "pairs": [
+          {
+            "a": "Good evening. Can I get you something to drink?",
+            "b": "I'll have lemonade, please."
+          },
+          {
+            "a": "Are you ready to order?",
+            "b": "Yes. I'll have the tomato soup to start."
+          },
+          {
+            "a": "And for your main course?",
+            "b": "I'll have the fish with potatoes and salad."
+          },
+          {
+            "a": "Anything else?",
+            "b": "No, that's all. Thank you."
+          }
+        ]
+      },
+      {
+        "name": "無提示",
+        "rate": 0.98,
+        "scenario": "同樣是點餐，但服務生換一種問法。",
+        "pairs": [
+          {
+            "a": "What would you like to drink?",
+            "b": "Could I have iced tea, please?"
+          },
+          {
+            "a": "What can I get started for you?",
+            "b": "I'd like tomato soup to start."
+          },
+          {
+            "a": "What would you like for dinner?",
+            "b": "I'll have the roast beef with mashed potatoes."
+          },
+          {
+            "a": "How would you like your beef?",
+            "b": "Well done, please."
+          }
+        ]
+      },
+      {
+        "name": "情境變化",
+        "rate": 1.12,
+        "scenario": "配菜缺貨，臨時改單。",
+        "pairs": [
+          {
+            "a": "Hi there. What can I get you to drink?",
+            "b": "I'll have a cup of coffee, please."
+          },
+          {
+            "a": "And what would you like to eat?",
+            "b": "I'll have the chicken sandwich with fries."
+          },
+          {
+            "a": "Sorry, we're out of fries today. Would rice be okay?",
+            "b": "Sure. Could I have rice instead of fries?"
+          },
+          {
+            "a": "Of course. Anything else?",
+            "b": "No, that's everything. Thank you."
+          }
+        ]
+      }
+    ]
+  },
+  "evaluation": {
+    "kind": "self_assessed",
+    "correct_label": "我答得出來",
+    "retry_label": "還要再練",
+    "notes": "未接入語音辨識時不會自動判斷口說正確率。自評只是練習熟悉度，不能冒充客觀發音或語法評分。"
+  }
+}
