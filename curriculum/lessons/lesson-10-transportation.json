@@ -1,0 +1,285 @@
+{
+  "schema_version": "1.0.0",
+  "id": "lesson-10-transportation",
+  "lesson_number": 10,
+  "title": "Transportation",
+  "title_zh": "搭車與轉乘",
+  "level": "A1–A2",
+  "estimated_minutes": 20,
+  "learning_objective": "能詢問公車、火車路線，確認班次、票價及換車方式。",
+  "source": {
+    "publisher": "U.S. Department of State — American English",
+    "publication": "Everyday Conversations: Learning American English",
+    "source_dialogue": "Dialogue 2-10: Transportation",
+    "source_url": "https://americanenglish.state.gov/resources/everyday-conversations-learning-american-english",
+    "source_pdf": "https://americanenglish.state.gov/files/ae/resource_files/b_dialogues_everyday_conversations_english_lo_0.pdf",
+    "source_audio": "https://americanenglish.state.gov/files/ae/resource_files/dialogue_2-10_transportation.mp3",
+    "adaptation_notice": "依官方對話情境重新編寫語塊、句型、問答和完整對話練習；非原文逐字轉錄，也非官方 FSI 課程。"
+  },
+  "chunks": [
+    {
+      "id": "c01",
+      "text": "Does this bus go to...?",
+      "meaning": "這班公車有到……嗎？",
+      "usage": "確認路線",
+      "example": "Does this bus go to the station?"
+    },
+    {
+      "id": "c02",
+      "text": "Which stop should I get off at?",
+      "meaning": "我該在哪站下車？",
+      "usage": "確認下車站",
+      "example": "Which stop should I get off at?"
+    },
+    {
+      "id": "c03",
+      "text": "How much is the fare?",
+      "meaning": "車資多少？",
+      "usage": "詢問票價",
+      "example": "How much is the fare?"
+    },
+    {
+      "id": "c04",
+      "text": "the next train",
+      "meaning": "下一班火車",
+      "usage": "詢問班次",
+      "example": "When is the next train?"
+    },
+    {
+      "id": "c05",
+      "text": "transfer to...",
+      "meaning": "轉乘……",
+      "usage": "換乘交通工具",
+      "example": "Transfer to the green line."
+    },
+    {
+      "id": "c06",
+      "text": "one-way ticket",
+      "meaning": "單程票",
+      "usage": "選擇票種",
+      "example": "One one-way ticket, please."
+    }
+  ],
+  "drills": {
+    "substitution": {
+      "instruction": "固定句型不變，只替換提示詞組。先說完整句，再核對答案。",
+      "pattern": "Does this bus go to ____?",
+      "items": [
+        {
+          "cue": "the museum",
+          "answer": "Does this bus go to the museum?"
+        },
+        {
+          "cue": "the train station",
+          "answer": "Does this bus go to the train station?"
+        },
+        {
+          "cue": "the airport",
+          "answer": "Does this bus go to the airport?"
+        },
+        {
+          "cue": "the city center",
+          "answer": "Does this bus go to the city center?"
+        },
+        {
+          "cue": "the university",
+          "answer": "Does this bus go to the university?"
+        },
+        {
+          "cue": "the shopping mall",
+          "answer": "Does this bus go to the shopping mall?"
+        },
+        {
+          "cue": "the main square",
+          "answer": "Does this bus go to the main square?"
+        },
+        {
+          "cue": "the hospital",
+          "answer": "Does this bus go to the hospital?"
+        },
+        {
+          "cue": "the old town",
+          "answer": "Does this bus go to the old town?"
+        },
+        {
+          "cue": "the central market",
+          "answer": "Does this bus go to the central market?"
+        }
+      ]
+    },
+    "buildup": {
+      "instruction": "每次加上一段資訊，重新說完整句。",
+      "items": [
+        {
+          "label": "確認公車",
+          "steps": [
+            "Does this bus stop here?",
+            "Does this bus stop at the museum?",
+            "Does this bus stop at the museum on weekends?"
+          ]
+        },
+        {
+          "label": "詢問站名",
+          "steps": [
+            "Where do I get off?",
+            "Where do I get off for the museum?",
+            "Where do I get off for the museum from this bus?"
+          ]
+        },
+        {
+          "label": "購票",
+          "steps": [
+            "I'd like a ticket.",
+            "I'd like a one-way ticket.",
+            "I'd like a one-way ticket to the airport."
+          ]
+        }
+      ]
+    },
+    "transformation": {
+      "instruction": "依照規則轉換句型，最後核對參考答案。",
+      "items": [
+        {
+          "original": "This bus goes to the airport.",
+          "rule": "轉成疑問句",
+          "answer": "Does this bus go to the airport?"
+        },
+        {
+          "original": "The next train is at six.",
+          "rule": "轉成否定句",
+          "answer": "The next train isn't at six."
+        },
+        {
+          "original": "You need to transfer.",
+          "rule": "轉成疑問句",
+          "answer": "Do you need to transfer?"
+        },
+        {
+          "original": "She bought a ticket.",
+          "rule": "轉成否定句",
+          "answer": "She didn't buy a ticket."
+        },
+        {
+          "original": "We can pay by card.",
+          "rule": "轉成疑問句",
+          "answer": "Can we pay by card?"
+        },
+        {
+          "original": "The buses run on Sunday.",
+          "rule": "轉成否定句",
+          "answer": "The buses don't run on Sunday."
+        }
+      ]
+    },
+    "response": {
+      "instruction": "A 問一句，你回答 B。相同對話三輪，逐輪加快。",
+      "rates": [
+        0.75,
+        0.95,
+        1.15
+      ],
+      "pairs": [
+        {
+          "a": "Does this bus go to the station?",
+          "b": "Yes, it does."
+        },
+        {
+          "a": "Which stop should I get off at?",
+          "b": "Get off at the next stop."
+        },
+        {
+          "a": "When is the next train?",
+          "b": "It leaves at six thirty."
+        },
+        {
+          "a": "How much is a one-way ticket?",
+          "b": "It's five dollars."
+        },
+        {
+          "a": "Do I need to transfer?",
+          "b": "Yes, transfer at Central Station."
+        }
+      ]
+    }
+  },
+  "conversation": {
+    "instruction": "先回應系統 A，再看 B 的參考答案。三輪提供不同的情境難度。",
+    "rounds": [
+      {
+        "name": "引導",
+        "rate": 0.8,
+        "scenario": "引導：搭車與轉乘",
+        "pairs": [
+          {
+            "a": "Excuse me, does this bus go to the station?",
+            "b": "Yes, it does."
+          },
+          {
+            "a": "Where would you like to go?",
+            "b": "To the train station, please."
+          },
+          {
+            "a": "It's four stops from here.",
+            "b": "Okay. How much is the fare?"
+          },
+          {
+            "a": "Two dollars.",
+            "b": "Thank you."
+          }
+        ]
+      },
+      {
+        "name": "無提示",
+        "rate": 0.98,
+        "scenario": "無提示：不同問法",
+        "pairs": [
+          {
+            "a": "What can I help you with?",
+            "b": "I'd like a one-way ticket to the airport."
+          },
+          {
+            "a": "The next train leaves at eight.",
+            "b": "Great. Which platform?"
+          },
+          {
+            "a": "Platform three.",
+            "b": "Thank you. Can I pay by card?"
+          },
+          {
+            "a": "Yes, you can.",
+            "b": "Perfect, thanks."
+          }
+        ]
+      },
+      {
+        "name": "情境變化",
+        "rate": 1.12,
+        "scenario": "變化：新的情境挑戰",
+        "pairs": [
+          {
+            "a": "Sorry, this train doesn't go to the airport.",
+            "b": "Oh, which train should I take?"
+          },
+          {
+            "a": "Take the blue line, then transfer.",
+            "b": "Where should I transfer?"
+          },
+          {
+            "a": "At Central Station.",
+            "b": "And which platform is it?"
+          },
+          {
+            "a": "Platform two.",
+            "b": "Thank you for your help."
+          }
+        ]
+      }
+    ]
+  },
+  "evaluation": {
+    "kind": "self_assessed",
+    "correct_label": "我答得出來",
+    "retry_label": "還要再練",
+    "notes": "不做自動語音辨識和發音評分；自評代表練習熟悉程度。"
+  }
+}
