@@ -1,0 +1,285 @@
+{
+  "schema_version": "1.0.0",
+  "id": "lesson-07-at-the-post-office",
+  "lesson_number": 7,
+  "title": "At the Post Office",
+  "title_zh": "郵局寄件",
+  "level": "A1–A2",
+  "estimated_minutes": 20,
+  "learning_objective": "能說明寄送物品、比較寄送方式與詢問費用、送達時間。",
+  "source": {
+    "publisher": "U.S. Department of State — American English",
+    "publication": "Everyday Conversations: Learning American English",
+    "source_dialogue": "Dialogue 2-7: At the Post Office",
+    "source_url": "https://americanenglish.state.gov/resources/everyday-conversations-learning-american-english",
+    "source_pdf": "https://americanenglish.state.gov/files/ae/resource_files/b_dialogues_everyday_conversations_english_lo_0.pdf",
+    "source_audio": "https://americanenglish.state.gov/files/ae/resource_files/dialogue_2-07_at_the_post_office.mp3",
+    "adaptation_notice": "依官方對話情境重新編寫語塊、句型、問答和完整對話練習；非原文逐字轉錄，也非官方 FSI 課程。"
+  },
+  "chunks": [
+    {
+      "id": "c01",
+      "text": "I'd like to send...",
+      "meaning": "我想寄……",
+      "usage": "說明寄件目的",
+      "example": "I'd like to send this package."
+    },
+    {
+      "id": "c02",
+      "text": "How much does it cost?",
+      "meaning": "需要多少錢？",
+      "usage": "詢問郵資",
+      "example": "How much does it cost to mail this?"
+    },
+    {
+      "id": "c03",
+      "text": "How long will it take?",
+      "meaning": "大約多久會送達？",
+      "usage": "詢問時間",
+      "example": "How long will it take to arrive?"
+    },
+    {
+      "id": "c04",
+      "text": "by express mail",
+      "meaning": "用快捷郵件",
+      "usage": "選擇服務",
+      "example": "I'd like to send it by express mail."
+    },
+    {
+      "id": "c05",
+      "text": "Do I need a form?",
+      "meaning": "需要填表嗎？",
+      "usage": "確認流程",
+      "example": "Do I need a form for this?"
+    },
+    {
+      "id": "c06",
+      "text": "Can I track it?",
+      "meaning": "可以追蹤嗎？",
+      "usage": "詢問追蹤方式",
+      "example": "Can I track this package?"
+    }
+  ],
+  "drills": {
+    "substitution": {
+      "instruction": "固定句型不變，只替換提示詞組。先說完整句，再核對答案。",
+      "pattern": "I'd like to send ____.",
+      "items": [
+        {
+          "cue": "this letter",
+          "answer": "I'd like to send this letter."
+        },
+        {
+          "cue": "this package",
+          "answer": "I'd like to send this package."
+        },
+        {
+          "cue": "a postcard",
+          "answer": "I'd like to send a postcard."
+        },
+        {
+          "cue": "these documents",
+          "answer": "I'd like to send these documents."
+        },
+        {
+          "cue": "a small parcel",
+          "answer": "I'd like to send a small parcel."
+        },
+        {
+          "cue": "a birthday card",
+          "answer": "I'd like to send a birthday card."
+        },
+        {
+          "cue": "this envelope",
+          "answer": "I'd like to send this envelope."
+        },
+        {
+          "cue": "a box to my friend",
+          "answer": "I'd like to send a box to my friend."
+        },
+        {
+          "cue": "a gift to my sister",
+          "answer": "I'd like to send a gift to my sister."
+        },
+        {
+          "cue": "this package overseas",
+          "answer": "I'd like to send this package overseas."
+        }
+      ]
+    },
+    "buildup": {
+      "instruction": "每次加上一段資訊，重新說完整句。",
+      "items": [
+        {
+          "label": "寄明信片",
+          "steps": [
+            "I'd like to send this.",
+            "I'd like to send this postcard.",
+            "I'd like to send this postcard to Canada."
+          ]
+        },
+        {
+          "label": "詢問時間",
+          "steps": [
+            "How long will it take?",
+            "How long will it take to arrive?",
+            "How long will it take to arrive by regular mail?"
+          ]
+        },
+        {
+          "label": "追蹤包裹",
+          "steps": [
+            "Can I track it?",
+            "Can I track this package?",
+            "Can I track this package online?"
+          ]
+        }
+      ]
+    },
+    "transformation": {
+      "instruction": "依照規則轉換句型，最後核對參考答案。",
+      "items": [
+        {
+          "original": "You need a stamp.",
+          "rule": "轉成疑問句",
+          "answer": "Do you need a stamp?"
+        },
+        {
+          "original": "This package is heavy.",
+          "rule": "轉成否定句",
+          "answer": "This package isn't heavy."
+        },
+        {
+          "original": "They deliver on Sundays.",
+          "rule": "轉成否定句",
+          "answer": "They don't deliver on Sundays."
+        },
+        {
+          "original": "I want a tracking number.",
+          "rule": "改成禮貌疑問句",
+          "answer": "Could I have a tracking number?"
+        },
+        {
+          "original": "The package will arrive tomorrow.",
+          "rule": "轉成疑問句",
+          "answer": "Will the package arrive tomorrow?"
+        },
+        {
+          "original": "She sent the letter yesterday.",
+          "rule": "轉成否定句",
+          "answer": "She didn't send the letter yesterday."
+        }
+      ]
+    },
+    "response": {
+      "instruction": "A 問一句，你回答 B。相同對話三輪，逐輪加快。",
+      "rates": [
+        0.75,
+        0.95,
+        1.15
+      ],
+      "pairs": [
+        {
+          "a": "What would you like to send?",
+          "b": "I'd like to send this package."
+        },
+        {
+          "a": "Where is it going?",
+          "b": "It's going to Canada."
+        },
+        {
+          "a": "Would you like regular or express mail?",
+          "b": "Express mail, please."
+        },
+        {
+          "a": "Do you need a tracking number?",
+          "b": "Yes, please."
+        },
+        {
+          "a": "Anything else today?",
+          "b": "No, that's all."
+        }
+      ]
+    }
+  },
+  "conversation": {
+    "instruction": "先回應系統 A，再看 B 的參考答案。三輪提供不同的情境難度。",
+    "rounds": [
+      {
+        "name": "引導",
+        "rate": 0.8,
+        "scenario": "引導：郵局寄件",
+        "pairs": [
+          {
+            "a": "Hello. How can I help you?",
+            "b": "I'd like to send this letter."
+          },
+          {
+            "a": "Where is it going?",
+            "b": "It's going to New York."
+          },
+          {
+            "a": "Regular mail or express?",
+            "b": "Regular mail, please."
+          },
+          {
+            "a": "That'll be two dollars.",
+            "b": "Here you go. Thank you."
+          }
+        ]
+      },
+      {
+        "name": "無提示",
+        "rate": 0.98,
+        "scenario": "無提示：不同問法",
+        "pairs": [
+          {
+            "a": "What can I do for you?",
+            "b": "I need to mail this package."
+          },
+          {
+            "a": "Would you like tracking?",
+            "b": "Yes, please."
+          },
+          {
+            "a": "Could you fill out this label?",
+            "b": "Of course."
+          },
+          {
+            "a": "Do you need anything else?",
+            "b": "No, that's all."
+          }
+        ]
+      },
+      {
+        "name": "情境變化",
+        "rate": 1.12,
+        "scenario": "變化：新的情境挑戰",
+        "pairs": [
+          {
+            "a": "Express mail is quite expensive.",
+            "b": "How long does regular mail take?"
+          },
+          {
+            "a": "About five business days.",
+            "b": "Okay, I'll use regular mail."
+          },
+          {
+            "a": "Would you like a receipt?",
+            "b": "Yes, please."
+          },
+          {
+            "a": "Here's your tracking number.",
+            "b": "Thanks. Have a good day!"
+          }
+        ]
+      }
+    ]
+  },
+  "evaluation": {
+    "kind": "self_assessed",
+    "correct_label": "我答得出來",
+    "retry_label": "還要再練",
+    "notes": "不做自動語音辨識和發音評分；自評代表練習熟悉程度。"
+  }
+}
