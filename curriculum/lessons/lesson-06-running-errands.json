@@ -1,0 +1,285 @@
+{
+  "schema_version": "1.0.0",
+  "id": "lesson-06-running-errands",
+  "lesson_number": 6,
+  "title": "Running Errands",
+  "title_zh": "日常辦事",
+  "level": "A1–A2",
+  "estimated_minutes": 20,
+  "learning_objective": "能描述待辦事項、詢問服務時間，並調整辦事順序。",
+  "source": {
+    "publisher": "U.S. Department of State — American English",
+    "publication": "Everyday Conversations: Learning American English",
+    "source_dialogue": "Dialogue 2-6: Running Errands",
+    "source_url": "https://americanenglish.state.gov/resources/everyday-conversations-learning-american-english",
+    "source_pdf": "https://americanenglish.state.gov/files/ae/resource_files/b_dialogues_everyday_conversations_english_lo_0.pdf",
+    "source_audio": "https://americanenglish.state.gov/files/ae/resource_files/dialogue_2-06_running_errands.mp3",
+    "adaptation_notice": "依官方對話情境重新編寫語塊、句型、問答和完整對話練習；非原文逐字轉錄，也非官方 FSI 課程。"
+  },
+  "chunks": [
+    {
+      "id": "c01",
+      "text": "I need to...",
+      "meaning": "我需要去……",
+      "usage": "表達必須做的事",
+      "example": "I need to stop by the bank."
+    },
+    {
+      "id": "c02",
+      "text": "pick up...",
+      "meaning": "領取、拿取……",
+      "usage": "描述取件",
+      "example": "I need to pick up a package."
+    },
+    {
+      "id": "c03",
+      "text": "drop off...",
+      "meaning": "送去、放下……",
+      "usage": "描述送件",
+      "example": "I need to drop off a letter."
+    },
+    {
+      "id": "c04",
+      "text": "on my way to...",
+      "meaning": "在去……的途中",
+      "usage": "描述路線",
+      "example": "I'll stop by the store on my way home."
+    },
+    {
+      "id": "c05",
+      "text": "before it closes",
+      "meaning": "關門之前",
+      "usage": "確認時間",
+      "example": "I need to get there before it closes."
+    },
+    {
+      "id": "c06",
+      "text": "Can we stop by...?",
+      "meaning": "我們可以順道去……嗎？",
+      "usage": "提出安排",
+      "example": "Can we stop by the pharmacy?"
+    }
+  ],
+  "drills": {
+    "substitution": {
+      "instruction": "固定句型不變，只替換提示詞組。先說完整句，再核對答案。",
+      "pattern": "I need to ____.",
+      "items": [
+        {
+          "cue": "buy some stamps",
+          "answer": "I need to buy some stamps."
+        },
+        {
+          "cue": "pick up a package",
+          "answer": "I need to pick up a package."
+        },
+        {
+          "cue": "go to the bank",
+          "answer": "I need to go to the bank."
+        },
+        {
+          "cue": "return a book",
+          "answer": "I need to return a book."
+        },
+        {
+          "cue": "stop by the pharmacy",
+          "answer": "I need to stop by the pharmacy."
+        },
+        {
+          "cue": "buy groceries",
+          "answer": "I need to buy groceries."
+        },
+        {
+          "cue": "make a phone call",
+          "answer": "I need to make a phone call."
+        },
+        {
+          "cue": "get a new key",
+          "answer": "I need to get a new key."
+        },
+        {
+          "cue": "drop off a letter",
+          "answer": "I need to drop off a letter."
+        },
+        {
+          "cue": "pick up my laundry",
+          "answer": "I need to pick up my laundry."
+        }
+      ]
+    },
+    "buildup": {
+      "instruction": "每次加上一段資訊，重新說完整句。",
+      "items": [
+        {
+          "label": "取包裹",
+          "steps": [
+            "I need to go.",
+            "I need to go to the post office.",
+            "I need to go to the post office to pick up a package."
+          ]
+        },
+        {
+          "label": "趕在關門前",
+          "steps": [
+            "I need to go to the bank.",
+            "I need to go to the bank today.",
+            "I need to go to the bank today before it closes."
+          ]
+        },
+        {
+          "label": "安排順路",
+          "steps": [
+            "I'll stop by the store.",
+            "I'll stop by the store on my way home.",
+            "I'll stop by the store on my way home to buy some bread."
+          ]
+        }
+      ]
+    },
+    "transformation": {
+      "instruction": "依照規則轉換句型，最後核對參考答案。",
+      "items": [
+        {
+          "original": "I need to buy stamps.",
+          "rule": "轉成否定句",
+          "answer": "I don't need to buy stamps."
+        },
+        {
+          "original": "You have time to go.",
+          "rule": "轉成疑問句",
+          "answer": "Do you have time to go?"
+        },
+        {
+          "original": "The bank closes at five.",
+          "rule": "轉成疑問句",
+          "answer": "Does the bank close at five?"
+        },
+        {
+          "original": "We have a lot to do.",
+          "rule": "轉成否定句",
+          "answer": "We don't have a lot to do."
+        },
+        {
+          "original": "She needs to return a book.",
+          "rule": "轉成否定句",
+          "answer": "She doesn't need to return a book."
+        },
+        {
+          "original": "We can stop at the store.",
+          "rule": "轉成疑問句",
+          "answer": "Can we stop at the store?"
+        }
+      ]
+    },
+    "response": {
+      "instruction": "A 問一句，你回答 B。相同對話三輪，逐輪加快。",
+      "rates": [
+        0.75,
+        0.95,
+        1.15
+      ],
+      "pairs": [
+        {
+          "a": "What do you need to do today?",
+          "b": "I need to pick up a package."
+        },
+        {
+          "a": "Can you stop by the pharmacy?",
+          "b": "Sure, I can stop by after work."
+        },
+        {
+          "a": "When does the bank close?",
+          "b": "It closes at five."
+        },
+        {
+          "a": "Do you have time for one more stop?",
+          "b": "Yes, I have a few minutes."
+        },
+        {
+          "a": "Are you finished with your errands?",
+          "b": "Almost. I still need to buy stamps."
+        }
+      ]
+    }
+  },
+  "conversation": {
+    "instruction": "先回應系統 A，再看 B 的參考答案。三輪提供不同的情境難度。",
+    "rounds": [
+      {
+        "name": "引導",
+        "rate": 0.8,
+        "scenario": "引導：日常辦事",
+        "pairs": [
+          {
+            "a": "What are you doing this afternoon?",
+            "b": "I have a few errands to run."
+          },
+          {
+            "a": "What do you need to do first?",
+            "b": "I need to go to the bank."
+          },
+          {
+            "a": "And after that?",
+            "b": "I'll pick up a package."
+          },
+          {
+            "a": "Will you be home by six?",
+            "b": "Yes, I think so."
+          }
+        ]
+      },
+      {
+        "name": "無提示",
+        "rate": 0.98,
+        "scenario": "無提示：不同問法",
+        "pairs": [
+          {
+            "a": "Can you pick up some groceries?",
+            "b": "Sure, what do we need?"
+          },
+          {
+            "a": "We need bread and milk.",
+            "b": "Okay, I'll stop by the supermarket."
+          },
+          {
+            "a": "Can you also get some stamps?",
+            "b": "Yes, I'll go to the post office."
+          },
+          {
+            "a": "Thanks for your help.",
+            "b": "No problem."
+          }
+        ]
+      },
+      {
+        "name": "情境變化",
+        "rate": 1.12,
+        "scenario": "變化：新的情境挑戰",
+        "pairs": [
+          {
+            "a": "The pharmacy closes in ten minutes.",
+            "b": "Then let's go there first."
+          },
+          {
+            "a": "What about the package?",
+            "b": "I'll pick it up tomorrow."
+          },
+          {
+            "a": "Do you still need to visit the bank?",
+            "b": "No, I can do that online."
+          },
+          {
+            "a": "Anything else today?",
+            "b": "No, that's everything."
+          }
+        ]
+      }
+    ]
+  },
+  "evaluation": {
+    "kind": "self_assessed",
+    "correct_label": "我答得出來",
+    "retry_label": "還要再練",
+    "notes": "不做自動語音辨識和發音評分；自評代表練習熟悉程度。"
+  }
+}
