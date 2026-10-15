@@ -1,0 +1,17 @@
+{
+  "schema_version": "1.0.0",
+  "program": "Chunks × FSI English Trainer",
+  "language": "en-US",
+  "interface_language": "zh-Hant",
+  "description": "情境教材 → Chunks → FSI 四種訓練 → 完整對話 → 複習。",
+  "lessons": [
+    {
+      "id": "lesson-01-ordering-a-meal",
+      "title": "Ordering a Meal",
+      "title_zh": "餐廳點餐",
+      "file": "curriculum/lessons/lesson-01-ordering-a-meal.json",
+      "status": "ready",
+      "source_dialogue": "2-1"
+    }
+  ]
+}
