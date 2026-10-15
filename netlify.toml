@@ -1,0 +1,15 @@
+# Static HTML/JSON site: no build step is required.
+[build]
+  publish = "."
+
+[[headers]]
+  for = "/curriculum/*.json"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
+    X-Content-Type-Options = "nosniff"
+
+[[headers]]
+  for = "/curriculum/lessons/*.json"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
+    X-Content-Type-Options = "nosniff"
