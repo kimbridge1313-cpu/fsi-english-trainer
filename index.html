@@ -1,11 +1,12 @@
 <!doctype html>
-<html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#f7f5f1"><title>FSI Lab — Chunks × FSI</title>
+<html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#f7f5f1"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="default"><meta name="apple-mobile-web-app-title" content="FSI Lab"><link rel="manifest" href="/manifest.webmanifest"><link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png"><link rel="icon" href="/icon.svg" type="image/svg+xml"><title>FSI Lab — Chunks × FSI</title>
 <style>
 :root{--bg:#f7f5f1;--fg:#272620;--mute:#75746f;--line:#e5e1db;--card:#fff;--accent:#ce4a1c;--accentSoft:#fceee8;--success:#207859;--round:18px}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:ui-sans-serif,-apple-system,BlinkMacSystemFont,"Noto Sans TC","PingFang TC","Microsoft JhengHei",sans-serif;background:var(--bg);color:var(--fg);font-size:15px;line-height:1.55}button{font:inherit;cursor:pointer}button:disabled{opacity:.5;cursor:default}a{color:inherit}header{position:sticky;top:0;background:#f7f5f1ed;border-bottom:1px solid var(--line);backdrop-filter:blur(14px);z-index:10}.wrap{max-width:860px;margin:0 auto;padding:0 20px}.hdr{height:63px;display:flex;align-items:center;justify-content:space-between;gap:12px}.brand{letter-spacing:.065em;font-size:13px;font-weight:800}.brand b{color:var(--accent)}.tiny{font-size:11px;color:var(--mute);letter-spacing:.05em}.ghost{border:1px solid var(--line);padding:8px 12px;background:transparent;border-radius:11px;color:var(--fg)}.page{padding:26px 20px 70px}.eyebrow{font-size:11px;letter-spacing:.13em;font-weight:800;color:var(--accent);text-transform:uppercase}.hero{margin-bottom:24px}.hero h1{font-weight:750;letter-spacing:-.035em;font-size:clamp(28px,5vw,40px);margin:9px 0}.hero p{color:var(--mute);margin:0;max-width:620px;font-size:13px}.sectionnav{display:flex;gap:7px;flex-wrap:wrap;margin:23px 0 16px}.tab{border:1px solid var(--line);background:white;padding:8px 13px;border-radius:100px;color:var(--mute);font-weight:650;font-size:12px}.tab.active{background:var(--fg);color:white;border-color:var(--fg)}.panel{background:var(--card);border:1px solid var(--line);border-radius:22px;padding:clamp(17px,3vw,31px);box-shadow:0 9px 45px #20201806}.panelhd{display:flex;align-items:center;justify-content:space-between;gap:12px;padding-bottom:19px;border-bottom:1px solid var(--line)}.panelhd h2{font-size:19px;margin:2px 0;letter-spacing:-.025em}.pill{font-size:11px;border-radius:99px;color:var(--mute);border:1px solid var(--line);padding:5px 9px;white-space:nowrap}.prompt{border-radius:16px;background:#f4f3ef;padding:24px;margin-top:18px}.prompt .caption,.cue .caption,.answer .caption{color:var(--mute);font-size:11px;font-weight:700;letter-spacing:.06em;margin:0 0 6px}.maintext{font-size:clamp(24px,4.5vw,36px);font-weight:750;line-height:1.35;letter-spacing:-.035em;overflow-wrap:anywhere}.cue{padding:21px 2px}.cue .maintext{font-size:clamp(27px,5.5vw,44px)}.sentence{font-size:clamp(19px,4vw,28px);font-weight:730;line-height:1.4;letter-spacing:-.02em}.answer{border:1px solid #d7d7cf;border-radius:16px;padding:19px;margin-top:14px}.explain{color:var(--mute);font-size:12px;margin:12px 0}.actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:15px}.btn{border-radius:12px;padding:12px 17px;font-size:14px;border:1px solid var(--line);font-weight:720;background:#fff;color:var(--fg)}.btn.primary{background:var(--accent);color:#fff;border-color:var(--accent)}.btn.full{flex:1}.btn.quiet{background:#f4f3ef}.progress{height:4px;border-radius:10px;background:#ebe9e3;overflow:hidden;margin-top:13px}.progress div{height:100%;background:var(--accent);transition:width .2s}.linkrow{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-top:17px}.linkrow a{font-size:12px;text-decoration:underline;color:var(--mute)}.meta{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;margin:18px 0}.meta div{background:#f0eee9;border-radius:11px;padding:10px}.meta b{display:block;font-size:15px}.meta small{color:var(--mute);font-size:10px}.toast{color:#89452e;font-size:12px;min-height:18px;margin-top:12px}.mini-cards{display:grid;gap:8px;margin-top:15px}.mini-cards div{border:1px solid var(--line);border-radius:12px;padding:11px;font-size:13px}.hide{display:none!important}.desc{font-size:12px;color:var(--mute)}.donebox{text-align:center;padding:38px 0}.donebox h2{font-size:30px;margin:12px 0}.foot{color:var(--mute);font-size:11px;margin:16px 0;text-align:center}.badge{font-size:11px;color:var(--accent);background:var(--accentSoft);padding:4px 9px;border-radius:99px}.quote{border-left:3px solid var(--accent);padding-left:13px;margin:15px 0}.stage-label{font-weight:800;color:var(--mute);font-size:11px;letter-spacing:.08em}.speaker{display:inline-block;background:#e4e3df;padding:3px 9px;border-radius:6px;font-size:11px;font-weight:750;margin-bottom:12px}#status{min-width:10px}@media(max-width:540px){.wrap{padding:0 15px}.page{padding:21px 15px 75px}.panel{border-radius:18px}.actions .btn{flex:1}.meta{grid-template-columns:repeat(3,1fr)}}
 .coursebar{margin:18px 0 20px;border:1px solid var(--line);background:#fff;border-radius:var(--round);padding:16px}.course-title{display:flex;align-items:center;justify-content:space-between;gap:8px;margin-bottom:12px}.course-title strong{font-size:14px}.course-title span{font-size:11px;color:var(--mute)}.course-grid[hidden]{display:none}.course-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:8px}.course-card{text-align:left;border:1px solid var(--line);border-radius:11px;background:var(--bg);padding:11px 12px;min-height:70px;transition:border-color .15s}.course-card.active{border:2px solid var(--accent);background:#fff5f0;padding:10px 11px}.course-card b{display:block;font-size:13px;color:var(--fg);margin:2px 0}.course-card small{font-size:11px;color:var(--mute)}.course-index{font-size:10px;font-weight:800;color:var(--accent)}.course-card:hover{border-color:var(--accent)}.course-toggle{border:1px solid var(--line);border-radius:9px;background:white;padding:5px 10px;font-size:12px;cursor:pointer}@media(max-width:540px){.course-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.coursebar{padding:13px}.course-card{padding:10px;min-height:75px}.course-card.active{padding:9px}}
 .lang-switch{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:17px}.lang-btn{padding:12px 16px;border:1px solid var(--line);border-radius:12px;background:var(--bg);font-size:14px;font-weight:750}.lang-btn.active{border:2px solid var(--accent);background:var(--accentSoft);color:var(--accent);padding:11px 15px}
+.pwa-banner[hidden]{display:none}.pwa-banner{display:flex;align-items:center;justify-content:space-between;gap:12px;margin:0 0 17px;padding:11px 13px;background:#fff;border:1px solid var(--line);border-radius:12px}.pwa-banner p{margin:0;font-size:12px;color:var(--mute)}.pwa-banner button{flex-shrink:0}.pwa-banner strong{color:var(--fg)}
 </style></head><body>
-<header><div class="wrap hdr"><div class="brand">FSI <b>LAB</b> <span style="color:#aaa;font-weight:500">/ ENGLISH &amp; JAPANESE</span></div><button id="restart" class="ghost">重新開始</button></div></header><main class="wrap page"><div class="hero"><div class="eyebrow" id="eyebrow">CHUNKS × FSI × CONVERSATION</div><h1 id="title">正在讀取教材…</h1><p id="subtitle">美國國務院 Around Town 十堂主題教材 · Chunks × FSI 六階段訓練</p></div><div id="coursebar"></div><div id="meta"></div><nav class="sectionnav" id="nav"></nav><div class="panel" id="panel"><p>正在載入…</p></div><div class="foot" id="foot">教材依各課來源編排，非官方版本。朗讀由瀏覽器內建語音提供，學習紀錄只儲存在此裝置。</div></main>
+<header><div class="wrap hdr"><div class="brand">FSI <b>LAB</b> <span style="color:#aaa;font-weight:500">/ ENGLISH &amp; JAPANESE</span></div><button id="restart" class="ghost">重新開始</button></div></header><main class="wrap page"><div class="hero"><div class="eyebrow" id="eyebrow">CHUNKS × FSI × CONVERSATION</div><h1 id="title">正在讀取教材…</h1><p id="subtitle">美國國務院 Around Town 十堂主題教材 · Chunks × FSI 六階段訓練</p></div><div id="pwaBanner" class="pwa-banner" hidden><p id="pwaInfo"></p><button type="button" class="ghost" id="installPwa" hidden>安裝 App</button></div><div id="coursebar"></div><div id="meta"></div><nav class="sectionnav" id="nav"></nav><div class="panel" id="panel"><p>正在載入…</p></div><div class="foot" id="foot">教材依各課來源編排，非官方版本。朗讀由瀏覽器內建語音提供，學習紀錄只儲存在此裝置。</div></main>
 <script>
 'use strict';
 const stages=[['chunks','語塊'],['substitution','替換'],['buildup','堆疊'],['transformation','轉換'],['response','問答'],['conversation','完整對話'],['summary','紀錄']];
@@ -96,4 +97,41 @@ function bind(){document.addEventListener('click',async e=>{let t=e.target.close
  });}
 async function boot(){bind();try{const r=await fetch('curriculum/index.json',{cache:'no-store'});if(!r.ok)throw Error('課程索引載入失敗');manifest=await r.json();const savedId=localStorage.getItem('fsi-chunks-selected-lesson');await loadLesson(manifest.lessons.find(x=>x.id===savedId)||manifest.lessons[0]);}catch(e){$('#title').textContent='教材載入失敗';$('#panel').innerHTML=`<p>${safe(e.message)}</p><p class="desc">請將整個專案資料夾部署到 HTTPS 靜態網站，不要只上傳 index.html；直接以 file:// 開啟可能無法讀取 JSON。</p>`;}}
 boot();
+(function configurePWA(){
+  if('serviceWorker' in navigator && (location.protocol==='https:'||location.hostname==='localhost')){
+    window.addEventListener('load',()=>{
+      navigator.serviceWorker.register('/sw.js',{scope:'/'})
+        .then(()=>navigator.serviceWorker.ready)
+        .then(reg=>{if(reg.active&&navigator.onLine)reg.active.postMessage({type:'CACHE_NEW_LESSONS'});})
+        .catch(err=>console.warn('Offline storage unavailable',err));
+    });
+  }
+  const banner=document.getElementById('pwaBanner');
+  const button=document.getElementById('installPwa');
+  const info=document.getElementById('pwaInfo');
+  const standalone=window.matchMedia('(display-mode: standalone)').matches||navigator.standalone===true;
+  if(standalone)return;
+  const iOS=/iPhone|iPad|iPod/i.test(navigator.userAgent) || (navigator.platform==='MacIntel' && navigator.maxTouchPoints>1);
+  if(iOS){
+    info.innerHTML='<strong>安裝 FSI Lab：</strong>在 Safari 按「分享」→「加入主畫面」。首次連網後可離線練習教材。';
+    banner.hidden=false;
+  }
+  let installPrompt;
+  window.addEventListener('beforeinstallprompt',event=>{
+    event.preventDefault();
+    installPrompt=event;
+    info.innerHTML='<strong>可以安裝 App：</strong>加入主畫面，離線複習英文與日文。';
+    button.hidden=false;
+    banner.hidden=false;
+  });
+  button.addEventListener('click',async()=>{
+    if(!installPrompt)return;
+    const promptEvent=installPrompt;
+    installPrompt=null;
+    button.hidden=true;
+    await promptEvent.prompt();
+    await promptEvent.userChoice;
+  });
+  window.addEventListener('appinstalled',()=>{banner.hidden=true;installPrompt=null;});
+})();
 </script></body></html>

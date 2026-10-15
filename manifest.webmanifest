@@ -1,0 +1,30 @@
+{
+  "name": "FSI Lab · English & Japanese",
+  "short_name": "FSI Lab",
+  "description": "Chunks 與 FSI 式英日語句型練習，可在手機安裝與離線複習教材。",
+  "id": "/",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#F7F5F1",
+  "theme_color": "#F7F5F1",
+  "lang": "zh-Hant",
+  "categories": [
+    "education",
+    "productivity"
+  ],
+  "icons": [
+    {
+      "src": "/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
