@@ -47,9 +47,21 @@ function panelFor(){let s=state.stage,i=state.index;
 
 function renderCourses(){
  if(!manifest)return;
- $('#coursebar').innerHTML=`<section class="coursebar" aria-label="課程清單">
- <div class="course-title"><div><strong>課程清單 · ${manifest.lessons.length} 堂</strong><br><span>選擇課程後可隨時再練習</span></div><button type="button" id="toggleLessons" class="course-toggle" aria-expanded="${coursesOpen}">${coursesOpen?'收合':'展開'}課程</button></div>
- <div id="course-grid" class="course-grid" ${coursesOpen?'':'hidden'}>${manifest.lessons.map((x,i)=>`<button type="button" data-lesson="${safe(x.id)}" class="course-card ${lesson?.id===x.id?'active':''}"><span class="course-index">LESSON ${String(i+1).padStart(2,'0')}</span><b>${safe(x.title)}</b><small>${safe(x.title_zh||'')}</small></button>`).join('')}</div></section>`;
+ const available=manifest.lessons.filter(x=>(x.language_track||'en')===activeTrack);
+ const tab=(track,label)=>`<button type="button" data-track="${track}" class="lang-btn ${activeTrack===track?'active':''}" aria-pressed="${activeTrack===track}">${label}</button>`;
+ $('#coursebar').innerHTML=`<section class="coursebar" aria-label="語言與課程">
+ <div class="lang-switch">${tab('en','English · 英文')}${tab('ja','日本語 · 日文')}</div>
+ <div class="course-title"><div><strong>${activeTrack==='ja'?'日本語課程':'English 課程'} · ${available.length} 堂</strong><br><span>${activeTrack==='ja'?'以《大家來學日文》影片的 NotebookLM 報告編排':'依美國國務院情境教材編排'}；兩種語言分別保存進度</span></div><button type="button" id="toggleLessons" class="course-toggle" aria-expanded="${coursesOpen}">${coursesOpen?'收合':'展開'}課程</button></div>
+ <div id="course-grid" class="course-grid" ${coursesOpen?'':'hidden'}>${available.map((x,i)=>`<button type="button" data-lesson="${safe(x.id)}" class="course-card ${lesson?.id===x.id?'active':''}"><span class="course-index">LESSON ${String(x.lesson_number||((x.language_track==='ja')?2:i+1)).padStart(2,'0')}</span><b>${safe(x.title)}</b><small>${safe(x.title_zh||'')}</small></button>`).join('')}</div></section>`;
+}
+async function switchTrack(track){
+ if(!['en','ja'].includes(track)||!manifest||track===activeTrack)return;
+ const previous=activeTrack;
+ activeTrack=track;
+ const preferred=localStorage.getItem('fsi-chunks-selected-lesson-'+track);
+ const next=manifest.lessons.find(x=>x.id===preferred&&(x.language_track||'en')===track)||manifest.lessons.find(x=>(x.language_track||'en')===track);
+ if(!next){activeTrack=previous;return;}
+ try{if(window.speechSynthesis)speechSynthesis.cancel();await loadLesson(next);}catch(err){activeTrack=previous;renderCourses();$('#panel').innerHTML='<p class="desc">'+safe(err.message)+'</p>';}
 }
 async function loadLesson(meta){
  if(!meta)throw Error('找不到此課程');
@@ -58,19 +70,22 @@ async function loadLesson(meta){
  const obj=await res.json();
  if(obj.id!==meta.id)throw Error('教材與課程索引不一致');
  lesson=obj;
+ activeTrack=meta.language_track||obj.language_track||(obj.language==='ja-JP'?'ja':'en');
  STORE='fsi-chunks-v1:'+lesson.id;
  state=INITIAL();
  try{let saved=JSON.parse(localStorage.getItem(STORE)||'null');if(!saved&&lesson.lesson_number===1){saved=JSON.parse(localStorage.getItem('fsi-chunks-v1:lesson-01')||'null');}if(saved&&Array.isArray(saved.events)){state={...state,...saved};save();}}catch(e){}
  if(!stages.some(x=>x[0]===state.stage))state.stage='chunks';
  if(!Number.isInteger(state.index)||state.index<0)state.index=0;
  localStorage.setItem('fsi-chunks-selected-lesson',lesson.id);
+ localStorage.setItem('fsi-chunks-selected-lesson-'+activeTrack,lesson.id);
  renderCourses();
  render();
 }
 
 function render(){if(!lesson)return;$('#title').textContent=lesson.title;$('#subtitle').textContent=`${lesson.title_zh} · ${lesson.learning_objective}`;$('#meta').innerHTML=`<div class="meta"><div><b>${lesson.chunks.length}</b><small>核心語塊</small></div><div><b>4</b><small>FSI 式訓練</small></div><div><b>3</b><small>完整對話輪次</small></div></div>`;$('#nav').innerHTML=stages.map(x=>`<button class="tab ${state.stage===x[0]?'active':''}" data-stage="${x[0]}">${x[1]}</button>`).join('');$('#panel').innerHTML=panelFor()+`<p class="toast" id="status" role="status"></p><div class="progress"><div style="width:${Math.round(100*(state.index+1)/(total()||1))}%"></div></div><div class="linkrow"><a href="${safe(lesson.source.source_url)}" target="_blank" rel="noopener">國務院原始教材 ↗</a><a href="${safe(lesson.source.source_audio)}" target="_blank" rel="noopener">教材原始 MP3 ↗</a></div>`;}
 function bind(){document.addEventListener('click',async e=>{let t=e.target.closest('button');if(!t)return;
- if(t.dataset.lesson){try{speechSynthesis.cancel();await loadLesson(manifest.lessons.find(x=>x.id===t.dataset.lesson));}catch(err){$('#panel').innerHTML='<p class="desc">'+safe(err.message)+'</p>';}return;}
+ if(t.dataset.track){await switchTrack(t.dataset.track);return;}
+ if(t.dataset.lesson){try{if(window.speechSynthesis)speechSynthesis.cancel();await loadLesson(manifest.lessons.find(x=>x.id===t.dataset.lesson));}catch(err){$('#panel').innerHTML='<p class="desc">'+safe(err.message)+'</p>';}return;}
  if(t.id==='toggleLessons'){coursesOpen=!coursesOpen;renderCourses();return;}
  if(t.dataset.stage){setStage(t.dataset.stage);return;}
  if(t.dataset.say){voice(decodeURIComponent(t.dataset.say),t.dataset.rate);return;}
