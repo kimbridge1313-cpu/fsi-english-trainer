@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0.0",
-  "program": "Chunks × FSI English Trainer",
-  "language": "en-US",
+  "program": "FSI Lab · English & Japanese",
+  "language": "multi",
   "interface_language": "zh-Hant",
-  "description": "美國國務院 Around Town 10 組情境：Chunks → 替換 → 堆疊 → 轉換 → 問答 → 完整對話",
+  "description": "English: 10 國務院情境課；日本語：使用者提供《大家的日本語》第二課，雙語獨立學習紀錄。",
   "lessons": [
     {
       "id": "lesson-01-ordering-a-meal",
@@ -11,7 +11,9 @@
       "title_zh": "餐廳點餐",
       "file": "curriculum/lessons/lesson-01-ordering-a-meal.json",
       "status": "ready",
-      "source_dialogue": "2-1"
+      "source_dialogue": "2-1",
+      "language_track": "en",
+      "language": "en-US"
     },
     {
       "id": "lesson-02-at-the-doctors-office",
@@ -19,7 +21,9 @@
       "title_zh": "看診與描述症狀",
       "file": "curriculum/lessons/lesson-02-at-the-doctors-office.json",
       "status": "ready",
-      "source_dialogue": "2-2"
+      "source_dialogue": "2-2",
+      "language_track": "en",
+      "language": "en-US"
     },
     {
       "id": "lesson-03-asking-directions",
@@ -27,7 +31,9 @@
       "title_zh": "問路與指引",
       "file": "curriculum/lessons/lesson-03-asking-directions.json",
       "status": "ready",
-      "source_dialogue": "2-3"
+      "source_dialogue": "2-3",
+      "language_track": "en",
+      "language": "en-US"
     },
     {
       "id": "lesson-04-calling-for-help",
@@ -35,7 +41,9 @@
       "title_zh": "電話求助",
       "file": "curriculum/lessons/lesson-04-calling-for-help.json",
       "status": "ready",
-      "source_dialogue": "2-4"
+      "source_dialogue": "2-4",
+      "language_track": "en",
+      "language": "en-US"
     },
     {
       "id": "lesson-05-at-the-supermarket",
@@ -43,7 +51,9 @@
       "title_zh": "超市購物",
       "file": "curriculum/lessons/lesson-05-at-the-supermarket.json",
       "status": "ready",
-      "source_dialogue": "2-5"
+      "source_dialogue": "2-5",
+      "language_track": "en",
+      "language": "en-US"
     },
     {
       "id": "lesson-06-running-errands",
@@ -51,7 +61,9 @@
       "title_zh": "日常辦事",
       "file": "curriculum/lessons/lesson-06-running-errands.json",
       "status": "ready",
-      "source_dialogue": "2-6"
+      "source_dialogue": "2-6",
+      "language_track": "en",
+      "language": "en-US"
     },
     {
       "id": "lesson-07-at-the-post-office",
@@ -59,7 +71,9 @@
       "title_zh": "郵局寄件",
       "file": "curriculum/lessons/lesson-07-at-the-post-office.json",
       "status": "ready",
-      "source_dialogue": "2-7"
+      "source_dialogue": "2-7",
+      "language_track": "en",
+      "language": "en-US"
     },
     {
       "id": "lesson-08-catching-up-after-class",
@@ -67,7 +81,9 @@
       "title_zh": "下課後聊天",
       "file": "curriculum/lessons/lesson-08-catching-up-after-class.json",
       "status": "ready",
-      "source_dialogue": "2-8"
+      "source_dialogue": "2-8",
+      "language_track": "en",
+      "language": "en-US"
     },
     {
       "id": "lesson-09-shopping",
@@ -75,7 +91,9 @@
       "title_zh": "服飾與生活購物",
       "file": "curriculum/lessons/lesson-09-shopping.json",
       "status": "ready",
-      "source_dialogue": "2-9"
+      "source_dialogue": "2-9",
+      "language_track": "en",
+      "language": "en-US"
     },
     {
       "id": "lesson-10-transportation",
@@ -83,7 +101,31 @@
       "title_zh": "搭車與轉乘",
       "file": "curriculum/lessons/lesson-10-transportation.json",
       "status": "ready",
-      "source_dialogue": "2-10"
+      "source_dialogue": "2-10",
+      "language_track": "en",
+      "language": "en-US"
+    },
+    {
+      "id": "ja-lesson-02-demonstratives-and-ownership",
+      "title": "指示代詞與基礎文法",
+      "title_zh": "大家的日本語 第二課",
+      "file": "curriculum/lessons/ja-lesson-02-demonstratives-and-ownership.json",
+      "language_track": "ja",
+      "language": "ja-JP",
+      "status": "ready",
+      "source_dialogue": "《大家的日本語》第二課講義"
+    }
+  ],
+  "languages": [
+    {
+      "code": "en",
+      "label": "English",
+      "voice": "en-US"
+    },
+    {
+      "code": "ja",
+      "label": "日本語",
+      "voice": "ja-JP"
     }
   ]
 }
