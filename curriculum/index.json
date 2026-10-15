@@ -3,7 +3,7 @@
   "program": "FSI Lab · English & Japanese",
   "language": "multi",
   "interface_language": "zh-Hant",
-  "description": "English: 10 國務院情境課；日本語：使用者提供《大家的日本語》第二課，雙語獨立學習紀錄。",
+  "description": "英文 Everyday Conversations 已上線 10 堂；日文將以《いろどり 生活的日語》入門 A1（18 課）為主線，目前尚未發布。",
   "lessons": [
     {
       "id": "lesson-01-ordering-a-meal",
@@ -104,16 +104,6 @@
       "source_dialogue": "2-10",
       "language_track": "en",
       "language": "en-US"
-    },
-    {
-      "id": "ja-lesson-02-demonstratives-and-ownership",
-      "title": "指示詞與物品所有格",
-      "title_zh": "大家來學日文 · 第 2 課",
-      "file": "curriculum/lessons/ja-lesson-02-demonstratives-and-ownership.json",
-      "language_track": "ja",
-      "language": "ja-JP",
-      "status": "ready",
-      "source_dialogue": "《大家來學日文》影片 → NotebookLM 學習報告"
     }
   ],
   "languages": [
