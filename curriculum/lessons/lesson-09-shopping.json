@@ -1,0 +1,285 @@
+{
+  "schema_version": "1.0.0",
+  "id": "lesson-09-shopping",
+  "lesson_number": 9,
+  "title": "Shopping",
+  "title_zh": "服飾與生活購物",
+  "level": "A1–A2",
+  "estimated_minutes": 20,
+  "learning_objective": "能詢問尺寸與顏色、試穿、比較價格並完成購買。",
+  "source": {
+    "publisher": "U.S. Department of State — American English",
+    "publication": "Everyday Conversations: Learning American English",
+    "source_dialogue": "Dialogue 2-9: Shopping",
+    "source_url": "https://americanenglish.state.gov/resources/everyday-conversations-learning-american-english",
+    "source_pdf": "https://americanenglish.state.gov/files/ae/resource_files/b_dialogues_everyday_conversations_english_lo_0.pdf",
+    "source_audio": "https://americanenglish.state.gov/files/ae/resource_files/dialogue_2-09_shopping.mp3",
+    "adaptation_notice": "依官方對話情境重新編寫語塊、句型、問答和完整對話練習；非原文逐字轉錄，也非官方 FSI 課程。"
+  },
+  "chunks": [
+    {
+      "id": "c01",
+      "text": "Do you have...?",
+      "meaning": "你們有……嗎？",
+      "usage": "詢問款式或尺寸",
+      "example": "Do you have this in blue?"
+    },
+    {
+      "id": "c02",
+      "text": "Can I try it on?",
+      "meaning": "可以試穿嗎？",
+      "usage": "提出試穿要求",
+      "example": "Can I try it on?"
+    },
+    {
+      "id": "c03",
+      "text": "It fits well.",
+      "meaning": "這件很合身",
+      "usage": "評論尺寸",
+      "example": "It fits well."
+    },
+    {
+      "id": "c04",
+      "text": "a smaller size",
+      "meaning": "小一號",
+      "usage": "修改尺寸",
+      "example": "Do you have a smaller size?"
+    },
+    {
+      "id": "c05",
+      "text": "How much is it?",
+      "meaning": "這個多少錢？",
+      "usage": "詢價",
+      "example": "How much is it?"
+    },
+    {
+      "id": "c06",
+      "text": "I'll take it.",
+      "meaning": "我買了",
+      "usage": "決定購買",
+      "example": "Great. I'll take it."
+    }
+  ],
+  "drills": {
+    "substitution": {
+      "instruction": "固定句型不變，只替換提示詞組。先說完整句，再核對答案。",
+      "pattern": "Do you have ____?",
+      "items": [
+        {
+          "cue": "this in blue",
+          "answer": "Do you have this in blue?"
+        },
+        {
+          "cue": "a smaller size",
+          "answer": "Do you have a smaller size?"
+        },
+        {
+          "cue": "a medium",
+          "answer": "Do you have a medium?"
+        },
+        {
+          "cue": "a larger jacket",
+          "answer": "Do you have a larger jacket?"
+        },
+        {
+          "cue": "these in black",
+          "answer": "Do you have these in black?"
+        },
+        {
+          "cue": "a different color",
+          "answer": "Do you have a different color?"
+        },
+        {
+          "cue": "this shirt in white",
+          "answer": "Do you have this shirt in white?"
+        },
+        {
+          "cue": "a size eight",
+          "answer": "Do you have a size eight?"
+        },
+        {
+          "cue": "another pair",
+          "answer": "Do you have another pair?"
+        },
+        {
+          "cue": "anything on sale",
+          "answer": "Do you have anything on sale?"
+        }
+      ]
+    },
+    "buildup": {
+      "instruction": "每次加上一段資訊，重新說完整句。",
+      "items": [
+        {
+          "label": "找尺寸",
+          "steps": [
+            "Do you have this?",
+            "Do you have this in medium?",
+            "Do you have this jacket in medium?"
+          ]
+        },
+        {
+          "label": "詢問試穿",
+          "steps": [
+            "Can I try it?",
+            "Can I try it on?",
+            "Can I try this blue jacket on?"
+          ]
+        },
+        {
+          "label": "比較款式",
+          "steps": [
+            "I like this shirt.",
+            "I like this blue shirt.",
+            "I like this blue shirt, but I need a smaller size."
+          ]
+        }
+      ]
+    },
+    "transformation": {
+      "instruction": "依照規則轉換句型，最後核對參考答案。",
+      "items": [
+        {
+          "original": "You have this in black.",
+          "rule": "轉成疑問句",
+          "answer": "Do you have this in black?"
+        },
+        {
+          "original": "The jacket fits.",
+          "rule": "轉成否定句",
+          "answer": "The jacket doesn't fit."
+        },
+        {
+          "original": "She wants a large.",
+          "rule": "轉成疑問句",
+          "answer": "Does she want a large?"
+        },
+        {
+          "original": "These shoes are expensive.",
+          "rule": "轉成否定句",
+          "answer": "These shoes aren't expensive."
+        },
+        {
+          "original": "I can try this on.",
+          "rule": "轉成疑問句",
+          "answer": "Can I try this on?"
+        },
+        {
+          "original": "I want a receipt.",
+          "rule": "改成禮貌疑問句",
+          "answer": "Could I have a receipt, please?"
+        }
+      ]
+    },
+    "response": {
+      "instruction": "A 問一句，你回答 B。相同對話三輪，逐輪加快。",
+      "rates": [
+        0.75,
+        0.95,
+        1.15
+      ],
+      "pairs": [
+        {
+          "a": "What size are you looking for?",
+          "b": "A medium, please."
+        },
+        {
+          "a": "Can I help you find something?",
+          "b": "Yes, do you have this in blue?"
+        },
+        {
+          "a": "Would you like to try it on?",
+          "b": "Yes, please."
+        },
+        {
+          "a": "How does it fit?",
+          "b": "It's a little too big."
+        },
+        {
+          "a": "Will you take it?",
+          "b": "Yes, I'll take it."
+        }
+      ]
+    }
+  },
+  "conversation": {
+    "instruction": "先回應系統 A，再看 B 的參考答案。三輪提供不同的情境難度。",
+    "rounds": [
+      {
+        "name": "引導",
+        "rate": 0.8,
+        "scenario": "引導：服飾與生活購物",
+        "pairs": [
+          {
+            "a": "Hello. Can I help you?",
+            "b": "Yes, I'm looking for a jacket."
+          },
+          {
+            "a": "What size do you need?",
+            "b": "A medium, please."
+          },
+          {
+            "a": "Would you like to try this one?",
+            "b": "Yes, can I try it on?"
+          },
+          {
+            "a": "How is the fit?",
+            "b": "It fits well. I'll take it."
+          }
+        ]
+      },
+      {
+        "name": "無提示",
+        "rate": 0.98,
+        "scenario": "無提示：不同問法",
+        "pairs": [
+          {
+            "a": "Are you looking for anything in particular?",
+            "b": "I'm looking for a pair of shoes."
+          },
+          {
+            "a": "What size are you?",
+            "b": "Size eight."
+          },
+          {
+            "a": "How about this pair?",
+            "b": "Do you have it in black?"
+          },
+          {
+            "a": "Yes, we do.",
+            "b": "Great. I'll try them on."
+          }
+        ]
+      },
+      {
+        "name": "情境變化",
+        "rate": 1.12,
+        "scenario": "變化：新的情境挑戰",
+        "pairs": [
+          {
+            "a": "Sorry, that color is sold out.",
+            "b": "Do you have it in blue?"
+          },
+          {
+            "a": "Yes, but only in a large.",
+            "b": "Could I try the large on?"
+          },
+          {
+            "a": "Of course. How does it fit?",
+            "b": "It's too big, unfortunately."
+          },
+          {
+            "a": "Would you like another style?",
+            "b": "Yes, please show me something similar."
+          }
+        ]
+      }
+    ]
+  },
+  "evaluation": {
+    "kind": "self_assessed",
+    "correct_label": "我答得出來",
+    "retry_label": "還要再練",
+    "notes": "不做自動語音辨識和發音評分；自評代表練習熟悉程度。"
+  }
+}
