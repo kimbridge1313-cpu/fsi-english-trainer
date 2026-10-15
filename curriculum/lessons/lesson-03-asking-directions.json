@@ -1,0 +1,285 @@
+{
+  "schema_version": "1.0.0",
+  "id": "lesson-03-asking-directions",
+  "lesson_number": 3,
+  "title": "Asking Directions",
+  "title_zh": "問路與指引",
+  "level": "A1–A2",
+  "estimated_minutes": 20,
+  "learning_objective": "能詢問地點、理解左右轉和直走，並確認是否走對方向。",
+  "source": {
+    "publisher": "U.S. Department of State — American English",
+    "publication": "Everyday Conversations: Learning American English",
+    "source_dialogue": "Dialogue 2-3: Asking Directions",
+    "source_url": "https://americanenglish.state.gov/resources/everyday-conversations-learning-american-english",
+    "source_pdf": "https://americanenglish.state.gov/files/ae/resource_files/b_dialogues_everyday_conversations_english_lo_0.pdf",
+    "source_audio": "https://americanenglish.state.gov/files/ae/resource_files/dialogue_2-03_asking_directions.mp3",
+    "adaptation_notice": "本課以官方對話主題為情境來源，語塊挑選與 FSI 式練習內容為新編寫教學材料；非原文逐字轉錄，也非官方 FSI 課程。"
+  },
+  "chunks": [
+    {
+      "id": "c01",
+      "text": "How do I get to...?",
+      "meaning": "我要怎麼去……？",
+      "usage": "詢問路線",
+      "example": "How do I get to the station?"
+    },
+    {
+      "id": "c02",
+      "text": "go straight",
+      "meaning": "直走",
+      "usage": "說明方向",
+      "example": "Go straight for two blocks."
+    },
+    {
+      "id": "c03",
+      "text": "turn left",
+      "meaning": "左轉",
+      "usage": "轉彎指令",
+      "example": "Turn left at the light."
+    },
+    {
+      "id": "c04",
+      "text": "turn right",
+      "meaning": "右轉",
+      "usage": "轉彎指令",
+      "example": "Turn right at the corner."
+    },
+    {
+      "id": "c05",
+      "text": "across from...",
+      "meaning": "在……正對面",
+      "usage": "描述相對位置",
+      "example": "It's across from the bank."
+    },
+    {
+      "id": "c06",
+      "text": "Is it far from here?",
+      "meaning": "離這裡遠嗎？",
+      "usage": "詢問距離",
+      "example": "Is it far from here?"
+    }
+  ],
+  "drills": {
+    "substitution": {
+      "instruction": "固定句型不變，只替換提示詞組。先說出完整句，再核對答案。",
+      "pattern": "How do I get to ____?",
+      "items": [
+        {
+          "cue": "the train station",
+          "answer": "How do I get to the train station?"
+        },
+        {
+          "cue": "the library",
+          "answer": "How do I get to the library?"
+        },
+        {
+          "cue": "the museum",
+          "answer": "How do I get to the museum?"
+        },
+        {
+          "cue": "the supermarket",
+          "answer": "How do I get to the supermarket?"
+        },
+        {
+          "cue": "the city hall",
+          "answer": "How do I get to the city hall?"
+        },
+        {
+          "cue": "the park",
+          "answer": "How do I get to the park?"
+        },
+        {
+          "cue": "the bus stop",
+          "answer": "How do I get to the bus stop?"
+        },
+        {
+          "cue": "the pharmacy",
+          "answer": "How do I get to the pharmacy?"
+        },
+        {
+          "cue": "the bank",
+          "answer": "How do I get to the bank?"
+        },
+        {
+          "cue": "the post office",
+          "answer": "How do I get to the post office?"
+        }
+      ]
+    },
+    "buildup": {
+      "instruction": "每次增加片語，重新說出完整句。",
+      "items": [
+        {
+          "label": "找車站",
+          "steps": [
+            "Where is the station?",
+            "Where is the train station?",
+            "Excuse me, where is the train station?"
+          ]
+        },
+        {
+          "label": "延伸路線",
+          "steps": [
+            "Go straight.",
+            "Go straight for two blocks.",
+            "Go straight for two blocks and turn left."
+          ]
+        },
+        {
+          "label": "確認位置",
+          "steps": [
+            "It's near the park.",
+            "It's near the park on Main Street.",
+            "It's near the park on Main Street, across from the bank."
+          ]
+        }
+      ]
+    },
+    "transformation": {
+      "instruction": "依照轉換規則重新說一次句子，再核對答案。",
+      "items": [
+        {
+          "original": "You can walk to the museum.",
+          "rule": "轉成疑問句",
+          "answer": "Can you walk to the museum?"
+        },
+        {
+          "original": "The library is far.",
+          "rule": "轉成否定句",
+          "answer": "The library isn't far."
+        },
+        {
+          "original": "Turn left here.",
+          "rule": "改成禮貌的請求句",
+          "answer": "Could you turn left here, please?"
+        },
+        {
+          "original": "The bank is on this street.",
+          "rule": "轉成一般疑問句",
+          "answer": "Is the bank on this street?"
+        },
+        {
+          "original": "We need a map.",
+          "rule": "轉成否定句",
+          "answer": "We don't need a map."
+        },
+        {
+          "original": "This bus stops at the station.",
+          "rule": "轉成疑問句",
+          "answer": "Does this bus stop at the station?"
+        }
+      ]
+    },
+    "response": {
+      "instruction": "A 每次說一句，你接著回答 B。同一段問答依序練三輪，每輪加快語速。",
+      "rates": [
+        0.75,
+        0.95,
+        1.15
+      ],
+      "pairs": [
+        {
+          "a": "Excuse me, where is the museum?",
+          "b": "It's two blocks away."
+        },
+        {
+          "a": "Should I turn left at the light?",
+          "b": "Yes, turn left there."
+        },
+        {
+          "a": "Is the station far from here?",
+          "b": "No, it's a short walk."
+        },
+        {
+          "a": "Is the bank near the park?",
+          "b": "Yes, it's across from the park."
+        },
+        {
+          "a": "Could you say that again?",
+          "b": "Sure. Go straight and turn right."
+        }
+      ]
+    }
+  },
+  "conversation": {
+    "instruction": "完成對話情境，先自己回答，再看參考答案。三輪逐步減少提示並加入變化。",
+    "rounds": [
+      {
+        "name": "引導",
+        "rate": 0.8,
+        "scenario": "第一次練習：問路與指引",
+        "pairs": [
+          {
+            "a": "Can I help you?",
+            "b": "Yes. How do I get to the train station?"
+          },
+          {
+            "a": "Go straight for two blocks.",
+            "b": "Okay, straight for two blocks."
+          },
+          {
+            "a": "Then turn left at the light.",
+            "b": "Turn left at the light. Got it."
+          },
+          {
+            "a": "You'll see it on your right.",
+            "b": "Thank you for your help."
+          }
+        ]
+      },
+      {
+        "name": "無提示",
+        "rate": 0.98,
+        "scenario": "再次練習：對話提問不同",
+        "pairs": [
+          {
+            "a": "Are you looking for something?",
+            "b": "Yes, the library."
+          },
+          {
+            "a": "It's next to the park.",
+            "b": "Is it far from here?"
+          },
+          {
+            "a": "No, about five minutes on foot.",
+            "b": "Great. Which way should I go?"
+          },
+          {
+            "a": "Walk straight and turn right.",
+            "b": "Thanks a lot."
+          }
+        ]
+      },
+      {
+        "name": "情境變化",
+        "rate": 1.12,
+        "scenario": "變化練習：處理新情況",
+        "pairs": [
+          {
+            "a": "The main street is closed today.",
+            "b": "Oh, is there another way to the museum?"
+          },
+          {
+            "a": "Yes. Go around the park.",
+            "b": "Should I turn right after the park?"
+          },
+          {
+            "a": "Exactly. It's opposite the bank.",
+            "b": "Perfect. Thank you."
+          },
+          {
+            "a": "Need me to repeat that?",
+            "b": "No, I've got it. Thanks!"
+          }
+        ]
+      }
+    ]
+  },
+  "evaluation": {
+    "kind": "self_assessed",
+    "correct_label": "我答得出來",
+    "retry_label": "還要再練",
+    "notes": "未啟用語音辨識；自評僅代表熟悉程度，非客觀發音評分。"
+  }
+}
