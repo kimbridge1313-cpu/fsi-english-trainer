@@ -13,7 +13,11 @@ for meta in index['lessons']:
     assert '____' in subs['pattern']
     for item in subs['items']:
         assert item['cue'].strip() and item['answer'].strip()
-        assert item['answer'] == subs['pattern'].replace('____', item['cue'])
+        if item.get('cue_language') == 'zh-TW':
+            assert item.get('pattern') and item.get('answer_zh')
+        else:
+            pattern = item.get('pattern', subs['pattern'])
+            assert item['answer'] == pattern.replace('____', item['cue'])
     assert all(len(x['steps']) >= 3 for x in lesson['drills']['buildup']['items'])
     assert len(lesson['drills']['response']['rates']) == 3
     assert len(lesson['conversation']['rounds']) == 3
