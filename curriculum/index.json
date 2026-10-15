@@ -3,7 +3,7 @@
   "program": "Chunks × FSI English Trainer",
   "language": "en-US",
   "interface_language": "zh-Hant",
-  "description": "情境教材 → Chunks → FSI 四種訓練 → 完整對話 → 複習。",
+  "description": "美國國務院 Around Town 10 組情境：Chunks → 替換 → 堆疊 → 轉換 → 問答 → 完整對話",
   "lessons": [
     {
       "id": "lesson-01-ordering-a-meal",
@@ -12,6 +12,78 @@
       "file": "curriculum/lessons/lesson-01-ordering-a-meal.json",
       "status": "ready",
       "source_dialogue": "2-1"
+    },
+    {
+      "id": "lesson-02-at-the-doctors-office",
+      "title": "At the Doctor’s Office",
+      "title_zh": "看診與描述症狀",
+      "file": "curriculum/lessons/lesson-02-at-the-doctors-office.json",
+      "status": "ready",
+      "source_dialogue": "2-2"
+    },
+    {
+      "id": "lesson-03-asking-directions",
+      "title": "Asking Directions",
+      "title_zh": "問路與指引",
+      "file": "curriculum/lessons/lesson-03-asking-directions.json",
+      "status": "ready",
+      "source_dialogue": "2-3"
+    },
+    {
+      "id": "lesson-04-calling-for-help",
+      "title": "Calling for Help",
+      "title_zh": "電話求助",
+      "file": "curriculum/lessons/lesson-04-calling-for-help.json",
+      "status": "ready",
+      "source_dialogue": "2-4"
+    },
+    {
+      "id": "lesson-05-at-the-supermarket",
+      "title": "At the Supermarket",
+      "title_zh": "超市購物",
+      "file": "curriculum/lessons/lesson-05-at-the-supermarket.json",
+      "status": "ready",
+      "source_dialogue": "2-5"
+    },
+    {
+      "id": "lesson-06-running-errands",
+      "title": "Running Errands",
+      "title_zh": "日常辦事",
+      "file": "curriculum/lessons/lesson-06-running-errands.json",
+      "status": "ready",
+      "source_dialogue": "2-6"
+    },
+    {
+      "id": "lesson-07-at-the-post-office",
+      "title": "At the Post Office",
+      "title_zh": "郵局寄件",
+      "file": "curriculum/lessons/lesson-07-at-the-post-office.json",
+      "status": "ready",
+      "source_dialogue": "2-7"
+    },
+    {
+      "id": "lesson-08-catching-up-after-class",
+      "title": "Catching Up After Class",
+      "title_zh": "下課後聊天",
+      "file": "curriculum/lessons/lesson-08-catching-up-after-class.json",
+      "status": "ready",
+      "source_dialogue": "2-8"
+    },
+    {
+      "id": "lesson-09-shopping",
+      "title": "Shopping",
+      "title_zh": "服飾與生活購物",
+      "file": "curriculum/lessons/lesson-09-shopping.json",
+      "status": "ready",
+      "source_dialogue": "2-9"
+    },
+    {
+      "id": "lesson-10-transportation",
+      "title": "Transportation",
+      "title_zh": "搭車與轉乘",
+      "file": "curriculum/lessons/lesson-10-transportation.json",
+      "status": "ready",
+      "source_dialogue": "2-10"
     }
   ]
 }
