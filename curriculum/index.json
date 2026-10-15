@@ -3,7 +3,7 @@
   "program": "FSI Lab · English & Japanese",
   "language": "multi",
   "interface_language": "zh-Hant",
-  "description": "英文 Everyday Conversations 已上線 10 堂；日文將以《いろどり 生活的日語》入門 A1（18 課）為主線，目前尚未發布。",
+  "description": "英文 Everyday Conversations：10 堂；日文《いろどり》入門 A1：第 1～3 課已開放，其餘第 4～18 課規劃中。所有聆聽按鈕固定 1.0 倍速。",
   "lessons": [
     {
       "id": "lesson-01-ordering-a-meal",
@@ -104,6 +104,39 @@
       "source_dialogue": "2-10",
       "language_track": "en",
       "language": "en-US"
+    },
+    {
+      "id": "irodori-a1-lesson-01-greetings",
+      "title": "おはようございます",
+      "title_zh": "招呼、道別、道謝與道歉",
+      "file": "curriculum/lessons/irodori-a1-lesson-01-greetings.json",
+      "status": "ready",
+      "source_dialogue": "Irodori Starter A1 Lesson 1",
+      "lesson_number": 1,
+      "language_track": "ja",
+      "language": "ja-JP"
+    },
+    {
+      "id": "irodori-a1-lesson-02-communication-repair",
+      "title": "すみません、よくわかりません",
+      "title_zh": "聽不懂時請對方重說／詢問語言能力",
+      "file": "curriculum/lessons/irodori-a1-lesson-02-communication-repair.json",
+      "status": "ready",
+      "source_dialogue": "Irodori Starter A1 Lesson 2",
+      "lesson_number": 2,
+      "language_track": "ja",
+      "language": "ja-JP"
+    },
+    {
+      "id": "irodori-a1-lesson-03-introductions",
+      "title": "よろしくお願いします",
+      "title_zh": "自我介紹、姓名、國籍與簡單提問",
+      "file": "curriculum/lessons/irodori-a1-lesson-03-introductions.json",
+      "status": "ready",
+      "source_dialogue": "Irodori Starter A1 Lesson 3",
+      "lesson_number": 3,
+      "language_track": "ja",
+      "language": "ja-JP"
     }
   ],
   "languages": [
