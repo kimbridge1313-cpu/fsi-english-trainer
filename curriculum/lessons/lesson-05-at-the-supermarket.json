@@ -1,0 +1,285 @@
+{
+  "schema_version": "1.0.0",
+  "id": "lesson-05-at-the-supermarket",
+  "lesson_number": 5,
+  "title": "At the Supermarket",
+  "title_zh": "超市購物",
+  "level": "A1–A2",
+  "estimated_minutes": 20,
+  "learning_objective": "能找商品、詢價、詢問庫存，完成結帳。",
+  "source": {
+    "publisher": "U.S. Department of State — American English",
+    "publication": "Everyday Conversations: Learning American English",
+    "source_dialogue": "Dialogue 2-5: At the Supermarket",
+    "source_url": "https://americanenglish.state.gov/resources/everyday-conversations-learning-american-english",
+    "source_pdf": "https://americanenglish.state.gov/files/ae/resource_files/b_dialogues_everyday_conversations_english_lo_0.pdf",
+    "source_audio": "https://americanenglish.state.gov/files/ae/resource_files/dialogue_2-05_at_the_supermarket.mp3",
+    "adaptation_notice": "本課以官方對話主題為情境來源，語塊挑選與 FSI 式練習內容為新編寫教學材料；非原文逐字轉錄，也非官方 FSI 課程。"
+  },
+  "chunks": [
+    {
+      "id": "c01",
+      "text": "I'm looking for...",
+      "meaning": "我在找……",
+      "usage": "尋找商品",
+      "example": "I'm looking for brown rice."
+    },
+    {
+      "id": "c02",
+      "text": "Do you have...?",
+      "meaning": "你們有……嗎？",
+      "usage": "詢問庫存",
+      "example": "Do you have fresh milk?"
+    },
+    {
+      "id": "c03",
+      "text": "How much is...?",
+      "meaning": "……多少錢？",
+      "usage": "詢問價格",
+      "example": "How much is this bottle?"
+    },
+    {
+      "id": "c04",
+      "text": "Where can I find...?",
+      "meaning": "哪裡可以找到……？",
+      "usage": "詢問貨架位置",
+      "example": "Where can I find the eggs?"
+    },
+    {
+      "id": "c05",
+      "text": "on sale",
+      "meaning": "特價中",
+      "usage": "理解價格資訊",
+      "example": "These apples are on sale."
+    },
+    {
+      "id": "c06",
+      "text": "That's everything.",
+      "meaning": "就這些了",
+      "usage": "結束結帳",
+      "example": "That's everything, thanks."
+    }
+  ],
+  "drills": {
+    "substitution": {
+      "instruction": "固定句型不變，只替換提示詞組。先說出完整句，再核對答案。",
+      "pattern": "I'm looking for ____.",
+      "items": [
+        {
+          "cue": "fresh milk",
+          "answer": "I'm looking for fresh milk."
+        },
+        {
+          "cue": "some bread",
+          "answer": "I'm looking for some bread."
+        },
+        {
+          "cue": "brown rice",
+          "answer": "I'm looking for brown rice."
+        },
+        {
+          "cue": "apples",
+          "answer": "I'm looking for apples."
+        },
+        {
+          "cue": "cooking oil",
+          "answer": "I'm looking for cooking oil."
+        },
+        {
+          "cue": "eggs",
+          "answer": "I'm looking for eggs."
+        },
+        {
+          "cue": "bottled water",
+          "answer": "I'm looking for bottled water."
+        },
+        {
+          "cue": "orange juice",
+          "answer": "I'm looking for orange juice."
+        },
+        {
+          "cue": "a basket",
+          "answer": "I'm looking for a basket."
+        },
+        {
+          "cue": "the checkout counter",
+          "answer": "I'm looking for the checkout counter."
+        }
+      ]
+    },
+    "buildup": {
+      "instruction": "每次增加片語，重新說出完整句。",
+      "items": [
+        {
+          "label": "找商品",
+          "steps": [
+            "I need rice.",
+            "I need brown rice.",
+            "I'm looking for a bag of brown rice."
+          ]
+        },
+        {
+          "label": "詢問庫存",
+          "steps": [
+            "Do you have milk?",
+            "Do you have fresh milk?",
+            "Do you have any fresh milk left?"
+          ]
+        },
+        {
+          "label": "詢問價格",
+          "steps": [
+            "How much is this?",
+            "How much is this bottle?",
+            "How much is this bottle of orange juice?"
+          ]
+        }
+      ]
+    },
+    "transformation": {
+      "instruction": "依照轉換規則重新說一次句子，再核對答案。",
+      "items": [
+        {
+          "original": "You have fresh eggs.",
+          "rule": "轉成疑問句",
+          "answer": "Do you have fresh eggs?"
+        },
+        {
+          "original": "The apples are on sale.",
+          "rule": "轉成否定句",
+          "answer": "The apples aren't on sale."
+        },
+        {
+          "original": "I need a bag.",
+          "rule": "轉成疑問句",
+          "answer": "Do I need a bag?"
+        },
+        {
+          "original": "She wants two bottles.",
+          "rule": "轉成否定句",
+          "answer": "She doesn't want two bottles."
+        },
+        {
+          "original": "This costs five dollars.",
+          "rule": "轉成疑問句",
+          "answer": "Does this cost five dollars?"
+        },
+        {
+          "original": "Give me a receipt.",
+          "rule": "改成禮貌的請求",
+          "answer": "Could I have a receipt, please?"
+        }
+      ]
+    },
+    "response": {
+      "instruction": "A 每次說一句，你接著回答 B。同一段問答依序練三輪，每輪加快語速。",
+      "rates": [
+        0.75,
+        0.95,
+        1.15
+      ],
+      "pairs": [
+        {
+          "a": "Can I help you find something?",
+          "b": "Yes, I'm looking for eggs."
+        },
+        {
+          "a": "Where is the rice?",
+          "b": "It's in aisle five."
+        },
+        {
+          "a": "Would you like a bag?",
+          "b": "Yes, please."
+        },
+        {
+          "a": "Do you have a membership card?",
+          "b": "No, I don't."
+        },
+        {
+          "a": "Will that be everything?",
+          "b": "Yes, that's everything."
+        }
+      ]
+    }
+  },
+  "conversation": {
+    "instruction": "完成對話情境，先自己回答，再看參考答案。三輪逐步減少提示並加入變化。",
+    "rounds": [
+      {
+        "name": "引導",
+        "rate": 0.8,
+        "scenario": "第一次練習：超市購物",
+        "pairs": [
+          {
+            "a": "Can I help you?",
+            "b": "Yes, I'm looking for fresh milk."
+          },
+          {
+            "a": "It's in the dairy section.",
+            "b": "Thank you. And where are the eggs?"
+          },
+          {
+            "a": "They're next to the milk.",
+            "b": "Great, thanks."
+          },
+          {
+            "a": "Anything else?",
+            "b": "No, that's all."
+          }
+        ]
+      },
+      {
+        "name": "無提示",
+        "rate": 0.98,
+        "scenario": "再次練習：對話提問不同",
+        "pairs": [
+          {
+            "a": "Are you ready to check out?",
+            "b": "Yes, please."
+          },
+          {
+            "a": "Would you like a bag?",
+            "b": "Yes, one bag, please."
+          },
+          {
+            "a": "Do you have a membership card?",
+            "b": "Not today."
+          },
+          {
+            "a": "Would you like a receipt?",
+            "b": "Yes, please."
+          }
+        ]
+      },
+      {
+        "name": "情境變化",
+        "rate": 1.12,
+        "scenario": "變化練習：處理新情況",
+        "pairs": [
+          {
+            "a": "Sorry, we're out of the small bottles.",
+            "b": "Do you have larger ones?"
+          },
+          {
+            "a": "Yes, one-liter bottles.",
+            "b": "How much are they?"
+          },
+          {
+            "a": "They're two dollars each.",
+            "b": "Okay, I'll take one."
+          },
+          {
+            "a": "Anything else today?",
+            "b": "No, thank you."
+          }
+        ]
+      }
+    ]
+  },
+  "evaluation": {
+    "kind": "self_assessed",
+    "correct_label": "我答得出來",
+    "retry_label": "還要再練",
+    "notes": "未啟用語音辨識；自評僅代表熟悉程度，非客觀發音評分。"
+  }
+}
