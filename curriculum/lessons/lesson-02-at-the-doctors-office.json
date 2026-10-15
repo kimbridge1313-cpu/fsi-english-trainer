@@ -1,0 +1,285 @@
+{
+  "schema_version": "1.0.0",
+  "id": "lesson-02-at-the-doctors-office",
+  "lesson_number": 2,
+  "title": "At the Doctor’s Office",
+  "title_zh": "看診與描述症狀",
+  "level": "A1–A2",
+  "estimated_minutes": 20,
+  "learning_objective": "能向診所人員描述常見症狀、詢問就診流程及確認下一步。",
+  "source": {
+    "publisher": "U.S. Department of State — American English",
+    "publication": "Everyday Conversations: Learning American English",
+    "source_dialogue": "Dialogue 2-2: At the Doctor’s Office",
+    "source_url": "https://americanenglish.state.gov/resources/everyday-conversations-learning-american-english",
+    "source_pdf": "https://americanenglish.state.gov/files/ae/resource_files/b_dialogues_everyday_conversations_english_lo_0.pdf",
+    "source_audio": "https://americanenglish.state.gov/files/ae/resource_files/dialogue_2-02_at_the_doctors_office.mp3",
+    "adaptation_notice": "本課以官方對話主題為情境來源，語塊挑選與 FSI 式練習內容為新編寫教學材料；非原文逐字轉錄，也非官方 FSI 課程。"
+  },
+  "chunks": [
+    {
+      "id": "c01",
+      "text": "I have...",
+      "meaning": "我有……",
+      "usage": "說明身體狀況",
+      "example": "I have a headache."
+    },
+    {
+      "id": "c02",
+      "text": "I've been feeling...",
+      "meaning": "我一直感覺……",
+      "usage": "描述持續的感受",
+      "example": "I've been feeling tired."
+    },
+    {
+      "id": "c03",
+      "text": "for two days",
+      "meaning": "持續兩天",
+      "usage": "交代持續時間",
+      "example": "I've had a cough for two days."
+    },
+    {
+      "id": "c04",
+      "text": "Do I need to...?",
+      "meaning": "我需要……嗎？",
+      "usage": "詢問流程",
+      "example": "Do I need to fill out a form?"
+    },
+    {
+      "id": "c05",
+      "text": "Could you repeat that?",
+      "meaning": "可以再說一次嗎？",
+      "usage": "請對方重複",
+      "example": "Could you repeat that, please?"
+    },
+    {
+      "id": "c06",
+      "text": "What should I do next?",
+      "meaning": "接下來我該怎麼做？",
+      "usage": "確認下一步",
+      "example": "What should I do next?"
+    }
+  ],
+  "drills": {
+    "substitution": {
+      "instruction": "固定句型不變，只替換提示詞組。先說出完整句，再核對答案。",
+      "pattern": "I have ____.",
+      "items": [
+        {
+          "cue": "a headache",
+          "answer": "I have a headache."
+        },
+        {
+          "cue": "a sore throat",
+          "answer": "I have a sore throat."
+        },
+        {
+          "cue": "a cough",
+          "answer": "I have a cough."
+        },
+        {
+          "cue": "a fever",
+          "answer": "I have a fever."
+        },
+        {
+          "cue": "a runny nose",
+          "answer": "I have a runny nose."
+        },
+        {
+          "cue": "a stomachache",
+          "answer": "I have a stomachache."
+        },
+        {
+          "cue": "a cold",
+          "answer": "I have a cold."
+        },
+        {
+          "cue": "back pain",
+          "answer": "I have back pain."
+        },
+        {
+          "cue": "an appointment",
+          "answer": "I have an appointment."
+        },
+        {
+          "cue": "a question",
+          "answer": "I have a question."
+        }
+      ]
+    },
+    "buildup": {
+      "instruction": "每次增加片語，重新說出完整句。",
+      "items": [
+        {
+          "label": "描述不舒服",
+          "steps": [
+            "I have a cough.",
+            "I have a cough today.",
+            "I have a cough and a sore throat today."
+          ]
+        },
+        {
+          "label": "說明持續時間",
+          "steps": [
+            "I've been feeling tired.",
+            "I've been feeling tired since Monday.",
+            "I've been feeling tired since Monday morning."
+          ]
+        },
+        {
+          "label": "詢問表格",
+          "steps": [
+            "Do I need to wait?",
+            "Do I need to wait here?",
+            "Do I need to wait here after filling out the form?"
+          ]
+        }
+      ]
+    },
+    "transformation": {
+      "instruction": "依照轉換規則重新說一次句子，再核對答案。",
+      "items": [
+        {
+          "original": "I have a headache.",
+          "rule": "轉成否定句",
+          "answer": "I don't have a headache."
+        },
+        {
+          "original": "You have an appointment.",
+          "rule": "轉成一般疑問句",
+          "answer": "Do you have an appointment?"
+        },
+        {
+          "original": "She feels dizzy.",
+          "rule": "轉成否定句",
+          "answer": "She doesn't feel dizzy."
+        },
+        {
+          "original": "You need to fill out a form.",
+          "rule": "轉成疑問句",
+          "answer": "Do you need to fill out a form?"
+        },
+        {
+          "original": "I am feeling better.",
+          "rule": "轉成否定句",
+          "answer": "I'm not feeling better."
+        },
+        {
+          "original": "I want to ask a question.",
+          "rule": "改成禮貌疑問句",
+          "answer": "Could I ask a question?"
+        }
+      ]
+    },
+    "response": {
+      "instruction": "A 每次說一句，你接著回答 B。同一段問答依序練三輪，每輪加快語速。",
+      "rates": [
+        0.75,
+        0.95,
+        1.15
+      ],
+      "pairs": [
+        {
+          "a": "Do you have an appointment?",
+          "b": "Yes, I have an appointment at ten."
+        },
+        {
+          "a": "What's bothering you today?",
+          "b": "I have a sore throat."
+        },
+        {
+          "a": "How long have you felt this way?",
+          "b": "For about two days."
+        },
+        {
+          "a": "Could you fill out this form?",
+          "b": "Sure, I can do that."
+        },
+        {
+          "a": "Do you have any questions?",
+          "b": "Yes. What should I do next?"
+        }
+      ]
+    }
+  },
+  "conversation": {
+    "instruction": "完成對話情境，先自己回答，再看參考答案。三輪逐步減少提示並加入變化。",
+    "rounds": [
+      {
+        "name": "引導",
+        "rate": 0.8,
+        "scenario": "第一次練習：看診與描述症狀",
+        "pairs": [
+          {
+            "a": "Hello. Do you have an appointment?",
+            "b": "Yes, at ten thirty."
+          },
+          {
+            "a": "What brings you in today?",
+            "b": "I have a headache and a cough."
+          },
+          {
+            "a": "How long have you had them?",
+            "b": "For two days."
+          },
+          {
+            "a": "Please take a seat.",
+            "b": "Thank you. I'll wait here."
+          }
+        ]
+      },
+      {
+        "name": "無提示",
+        "rate": 0.98,
+        "scenario": "再次練習：對話提問不同",
+        "pairs": [
+          {
+            "a": "Good morning. What's your name?",
+            "b": "My name is Lee."
+          },
+          {
+            "a": "Do you have an appointment?",
+            "b": "Yes, this morning."
+          },
+          {
+            "a": "What symptoms do you have?",
+            "b": "I have a sore throat."
+          },
+          {
+            "a": "Would you mind filling out this form?",
+            "b": "Not at all."
+          }
+        ]
+      },
+      {
+        "name": "情境變化",
+        "rate": 1.12,
+        "scenario": "變化練習：處理新情況",
+        "pairs": [
+          {
+            "a": "We have a short delay today. Is that okay?",
+            "b": "Yes. About how long is the wait?"
+          },
+          {
+            "a": "About twenty minutes.",
+            "b": "Okay, thank you for telling me."
+          },
+          {
+            "a": "Could you update your contact details?",
+            "b": "Of course."
+          },
+          {
+            "a": "Anything else you need?",
+            "b": "Could you tell me where to wait?"
+          }
+        ]
+      }
+    ]
+  },
+  "evaluation": {
+    "kind": "self_assessed",
+    "correct_label": "我答得出來",
+    "retry_label": "還要再練",
+    "notes": "未啟用語音辨識；自評僅代表熟悉程度，非客觀發音評分。"
+  }
+}
