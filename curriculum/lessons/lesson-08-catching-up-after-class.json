@@ -1,0 +1,285 @@
+{
+  "schema_version": "1.0.0",
+  "id": "lesson-08-catching-up-after-class",
+  "lesson_number": 8,
+  "title": "Catching Up After Class",
+  "title_zh": "下課後聊天",
+  "level": "A1–A2",
+  "estimated_minutes": 20,
+  "learning_objective": "能跟朋友分享近期近況、詢問學習情況和安排下次碰面。",
+  "source": {
+    "publisher": "U.S. Department of State — American English",
+    "publication": "Everyday Conversations: Learning American English",
+    "source_dialogue": "Dialogue 2-8: Catching Up After Class",
+    "source_url": "https://americanenglish.state.gov/resources/everyday-conversations-learning-american-english",
+    "source_pdf": "https://americanenglish.state.gov/files/ae/resource_files/b_dialogues_everyday_conversations_english_lo_0.pdf",
+    "source_audio": "https://americanenglish.state.gov/files/ae/resource_files/dialogue_2-08_catching_up_after_class.mp3",
+    "adaptation_notice": "依官方對話情境重新編寫語塊、句型、問答和完整對話練習；非原文逐字轉錄，也非官方 FSI 課程。"
+  },
+  "chunks": [
+    {
+      "id": "c01",
+      "text": "How was...?",
+      "meaning": "……怎麼樣？",
+      "usage": "詢問經驗",
+      "example": "How was your class?"
+    },
+    {
+      "id": "c02",
+      "text": "It's been a while.",
+      "meaning": "好久不見",
+      "usage": "重新聯絡",
+      "example": "It's been a while!"
+    },
+    {
+      "id": "c03",
+      "text": "I've been busy with...",
+      "meaning": "我一直忙著……",
+      "usage": "描述近況",
+      "example": "I've been busy with work."
+    },
+    {
+      "id": "c04",
+      "text": "What have you been up to?",
+      "meaning": "你最近在忙什麼？",
+      "usage": "詢問近況",
+      "example": "What have you been up to?"
+    },
+    {
+      "id": "c05",
+      "text": "Do you want to catch up?",
+      "meaning": "要不要聊聊近況？",
+      "usage": "邀約朋友",
+      "example": "Do you want to catch up over coffee?"
+    },
+    {
+      "id": "c06",
+      "text": "That sounds great.",
+      "meaning": "聽起來不錯",
+      "usage": "回應提議",
+      "example": "That sounds great."
+    }
+  ],
+  "drills": {
+    "substitution": {
+      "instruction": "固定句型不變，只替換提示詞組。先說完整句，再核對答案。",
+      "pattern": "How was ____?",
+      "items": [
+        {
+          "cue": "your class",
+          "answer": "How was your class?"
+        },
+        {
+          "cue": "the exam",
+          "answer": "How was the exam?"
+        },
+        {
+          "cue": "your weekend",
+          "answer": "How was your weekend?"
+        },
+        {
+          "cue": "the lecture",
+          "answer": "How was the lecture?"
+        },
+        {
+          "cue": "your presentation",
+          "answer": "How was your presentation?"
+        },
+        {
+          "cue": "your trip",
+          "answer": "How was your trip?"
+        },
+        {
+          "cue": "the homework",
+          "answer": "How was the homework?"
+        },
+        {
+          "cue": "your meeting",
+          "answer": "How was your meeting?"
+        },
+        {
+          "cue": "your morning",
+          "answer": "How was your morning?"
+        },
+        {
+          "cue": "the study group",
+          "answer": "How was the study group?"
+        }
+      ]
+    },
+    "buildup": {
+      "instruction": "每次加上一段資訊，重新說完整句。",
+      "items": [
+        {
+          "label": "詢問近況",
+          "steps": [
+            "How have you been?",
+            "How have you been lately?",
+            "Hey, how have you been lately?"
+          ]
+        },
+        {
+          "label": "描述忙碌",
+          "steps": [
+            "I've been busy.",
+            "I've been busy with work.",
+            "I've been busy with work this week."
+          ]
+        },
+        {
+          "label": "約喝咖啡",
+          "steps": [
+            "Do you want to meet?",
+            "Do you want to meet for coffee?",
+            "Do you want to meet for coffee after class?"
+          ]
+        }
+      ]
+    },
+    "transformation": {
+      "instruction": "依照規則轉換句型，最後核對參考答案。",
+      "items": [
+        {
+          "original": "You enjoyed the lecture.",
+          "rule": "轉成疑問句",
+          "answer": "Did you enjoy the lecture?"
+        },
+        {
+          "original": "I was busy yesterday.",
+          "rule": "轉成否定句",
+          "answer": "I wasn't busy yesterday."
+        },
+        {
+          "original": "She likes this class.",
+          "rule": "轉成疑問句",
+          "answer": "Does she like this class?"
+        },
+        {
+          "original": "We have time after class.",
+          "rule": "轉成否定句",
+          "answer": "We don't have time after class."
+        },
+        {
+          "original": "They went to the library.",
+          "rule": "轉成疑問句",
+          "answer": "Did they go to the library?"
+        },
+        {
+          "original": "You are free tomorrow.",
+          "rule": "轉成疑問句",
+          "answer": "Are you free tomorrow?"
+        }
+      ]
+    },
+    "response": {
+      "instruction": "A 問一句，你回答 B。相同對話三輪，逐輪加快。",
+      "rates": [
+        0.75,
+        0.95,
+        1.15
+      ],
+      "pairs": [
+        {
+          "a": "How was your class?",
+          "b": "It was really interesting."
+        },
+        {
+          "a": "What have you been up to?",
+          "b": "I've been busy with work."
+        },
+        {
+          "a": "Did you finish the assignment?",
+          "b": "Yes, I finished it last night."
+        },
+        {
+          "a": "Are you free after class?",
+          "b": "Yes, I have some time."
+        },
+        {
+          "a": "Want to grab a coffee?",
+          "b": "That sounds great."
+        }
+      ]
+    }
+  },
+  "conversation": {
+    "instruction": "先回應系統 A，再看 B 的參考答案。三輪提供不同的情境難度。",
+    "rounds": [
+      {
+        "name": "引導",
+        "rate": 0.8,
+        "scenario": "引導：下課後聊天",
+        "pairs": [
+          {
+            "a": "Hey! It's been a while.",
+            "b": "I know! How have you been?"
+          },
+          {
+            "a": "Pretty good. How was your class?",
+            "b": "It was interesting."
+          },
+          {
+            "a": "Are you heading home now?",
+            "b": "Not yet. I'm going to the library."
+          },
+          {
+            "a": "Want to grab coffee later?",
+            "b": "Sure, that sounds great."
+          }
+        ]
+      },
+      {
+        "name": "無提示",
+        "rate": 0.98,
+        "scenario": "無提示：不同問法",
+        "pairs": [
+          {
+            "a": "How did your presentation go?",
+            "b": "It went well, thanks."
+          },
+          {
+            "a": "Were you nervous?",
+            "b": "A little, but it was okay."
+          },
+          {
+            "a": "What are you doing now?",
+            "b": "I need to finish some homework."
+          },
+          {
+            "a": "Maybe we can meet tomorrow.",
+            "b": "Yes, let's do that."
+          }
+        ]
+      },
+      {
+        "name": "情境變化",
+        "rate": 1.12,
+        "scenario": "變化：新的情境挑戰",
+        "pairs": [
+          {
+            "a": "The study group was canceled.",
+            "b": "Oh, really? Why?"
+          },
+          {
+            "a": "The teacher isn't available.",
+            "b": "Okay, thanks for letting me know."
+          },
+          {
+            "a": "Do you want to study together instead?",
+            "b": "Sure, that sounds helpful."
+          },
+          {
+            "a": "Let's meet in the library.",
+            "b": "See you there!"
+          }
+        ]
+      }
+    ]
+  },
+  "evaluation": {
+    "kind": "self_assessed",
+    "correct_label": "我答得出來",
+    "retry_label": "還要再練",
+    "notes": "不做自動語音辨識和發音評分；自評代表練習熟悉程度。"
+  }
+}
