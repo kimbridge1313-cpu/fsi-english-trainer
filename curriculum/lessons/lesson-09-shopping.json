@@ -281,5 +281,7 @@
     "correct_label": "我答得出來",
     "retry_label": "還要再練",
     "notes": "不做自動語音辨識和發音評分；自評代表練習熟悉程度。"
-  }
+  },
+  "language": "en-US",
+  "language_track": "en"
 }

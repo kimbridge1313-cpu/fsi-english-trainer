@@ -1,5 +1,5 @@
 /* FSI Lab PWA — versioned static lesson cache. No user records leave the device. */
-const CACHE_NAME='fsi-lab-offline-v2';
+const CACHE_NAME='fsi-lab-offline-v3';
 const CACHE_PREFIX='fsi-lab-offline-';
 const CORE=['/','/index.html','/curriculum/index.json','/manifest.webmanifest','/icon.svg','/icons/icon-192.png','/icons/icon-512.png','/icons/apple-touch-icon.png'];
 const lessonPath = path => typeof path==='string' && /^curriculum\/lessons\/[a-z0-9-]+\.json$/.test(path) ? '/'+path : null;
