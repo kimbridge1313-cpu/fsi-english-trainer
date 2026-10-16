@@ -79,7 +79,7 @@ function renderCourses(){
  const tab=(track,label)=>{const ready=manifest.lessons.some(x=>(x.language_track||'en')===track);return `<button type="button" data-track="${track}" class="lang-btn ${activeTrack===track?'active':''}" aria-pressed="${activeTrack===track}" ${ready?'':'disabled aria-disabled="true" title="課程準備中"'}>${label}${ready?'':' · 準備中'}</button>`;};
  $('#coursebar').innerHTML=`<section class="coursebar" aria-label="語言與課程">
  <div class="lang-switch">${tab('en','English · 英文')}${tab('ja','日本語 · 日文')}</div>
- <div class="course-title"><div><strong>${activeTrack==='ja'?'日本語課程':'English 課程'} · ${available.length} 堂</strong><br><span>${activeTrack==='ja'?'《いろどり》入門 A1 · 前 3 課':'依美國國務院情境教材編排'}；學習進度保存在本機</span></div><button type="button" id="toggleLessons" class="course-toggle" aria-expanded="${coursesOpen}">${coursesOpen?'收合':'展開'}課程</button></div>
+ <div class="course-title"><div><strong>${activeTrack==='ja'?'日本語課程':'English 課程'} · ${available.length} 堂</strong><br><span>${activeTrack==='ja'?'《いろどり》入門 A1 · 全 18 課':'依美國國務院情境教材編排'}；學習進度保存在本機</span></div><button type="button" id="toggleLessons" class="course-toggle" aria-expanded="${coursesOpen}">${coursesOpen?'收合':'展開'}課程</button></div>
  <div id="course-grid" class="course-grid" ${coursesOpen?'':'hidden'}>${available.map((x,i)=>`<button type="button" data-lesson="${safe(x.id)}" class="course-card ${lesson?.id===x.id?'active':''}"><span class="course-index">LESSON ${String(x.lesson_number||((x.language_track==='ja')?2:i+1)).padStart(2,'0')}</span><b>${safe(x.title)}</b><small>${safe(x.title_zh||'')}</small></button>`).join('')}</div></section>`;
 }
 async function switchTrack(track){
