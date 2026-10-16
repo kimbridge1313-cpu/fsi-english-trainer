@@ -289,5 +289,7 @@
     "correct_label": "我答得出來",
     "retry_label": "還要再練",
     "notes": "未接入語音辨識時不會自動判斷口說正確率。自評只是練習熟悉度，不能冒充客觀發音或語法評分。"
-  }
+  },
+  "language": "en-US",
+  "language_track": "en"
 }

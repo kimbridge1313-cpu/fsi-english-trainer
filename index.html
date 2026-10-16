@@ -17,19 +17,34 @@ let coursesOpen=true,activeTrack='en';
 
 const $=s=>document.querySelector(s);
 const safe=t=>String(t??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-const sayButton=(text,label='▶ 聆聽',_unusedRate=1,language='')=>`<button class="btn quiet" data-say="${encodeURIComponent(text)}" ${language?`data-lang="${language}"`:''}>${label}</button>`;
+const speechLanguage=(requested='')=> /^(en-US|ja-JP|zh-TW)$/.test(requested)?requested:(lesson?.language|| (activeTrack==='ja'?'ja-JP':'en-US'));
+const sayButton=(text,label='▶ 聆聽',_unusedRate=1,language='')=>`<button class="btn quiet" data-say="${encodeURIComponent(text)}" data-lang="${speechLanguage(language)}">${label}</button>`;
 function voice(text,language=''){
- if(!window.speechSynthesis){const status=$('#status');if(status)status.textContent='此瀏覽器不支援語音朗讀。';return;}
- const target=/^(en-US|ja-JP|zh-TW)$/.test(language)?language:(lesson?.language||'en-US');
+ const status=$('#status');
+ if(!window.speechSynthesis){if(status)status.textContent='此瀏覽器不支援語音朗讀。';return;}
+ const target=speechLanguage(language);
+ const base=target.slice(0,2).toLowerCase();
+ const languageName=base==='zh'?'中文':base==='ja'?'日文':'英文';
+ const available=speechSynthesis.getVoices();
+ // Never let a missing English voice silently fall back to the device's Japanese voice.
+ const matching=available.find(x=>x.lang?.toLowerCase()===target.toLowerCase())
+   ||available.find(x=>x.lang?.toLowerCase().startsWith(base+'-'));
+ if(!matching){
+   if(status)status.textContent=available.length
+     ?'找不到'+languageName+'語音，請在裝置設定中啟用該語言的語音後重試。'
+     :'語音清單尚未載入，請稍後再試。';
+   speechSynthesis.getVoices(); // Prompt browsers to populate the voice list.
+   return;
+ }
  const utterance=new SpeechSynthesisUtterance(text);
  utterance.lang=target;
+ utterance.voice=matching;
  utterance.rate=1.0;
  utterance.pitch=1.0;
- const voices=speechSynthesis.getVoices();
- const lower=target.toLowerCase(),base=target.slice(0,2).toLowerCase();
- utterance.voice=voices.find(x=>x.lang.toLowerCase()===lower)||voices.find(x=>x.lang.toLowerCase().startsWith(base))||null;
- utterance.onerror=()=>{const status=$('#status');if(status)status.textContent='語音播放失敗，請確認裝置已安裝'+(base==='zh'?'繁體中文':base==='ja'?'日文':'英文')+'語音。';};
- speechSynthesis.cancel();speechSynthesis.speak(utterance);
+ utterance.onerror=()=>{if(status)status.textContent=languageName+'語音播放失敗，請確認裝置語音設定。';};
+ if(status)status.textContent='';
+ speechSynthesis.cancel();
+ speechSynthesis.speak(utterance);
 }
 function save(){try{localStorage.setItem(STORE,JSON.stringify(state))}catch{}}
 function resetStep(){state.index=0;state.round=0;state.step=0;state.reveal=false;save();}
@@ -83,7 +98,8 @@ async function loadLesson(meta){
  const obj=await res.json();
  if(obj.id!==meta.id)throw Error('教材與課程索引不一致');
  lesson=obj;
- activeTrack=meta.language_track||obj.language_track||(obj.language==='ja-JP'?'ja':'en');
+ lesson.language=meta.language||obj.language||(meta.language_track==='ja'?'ja-JP':'en-US');
+ activeTrack=meta.language_track||obj.language_track||(lesson.language==='ja-JP'?'ja':'en');
  STORE='fsi-chunks-v1:'+lesson.id;
  state=INITIAL();
  try{let saved=JSON.parse(localStorage.getItem(STORE)||'null');if(!saved&&lesson.lesson_number===1&&lesson.language!=='ja-JP'){saved=JSON.parse(localStorage.getItem('fsi-chunks-v1:lesson-01')||'null');}if(saved&&Array.isArray(saved.events)){state={...state,...saved};save();}}catch(e){}
