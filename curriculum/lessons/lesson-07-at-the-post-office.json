@@ -22,42 +22,48 @@
       "text": "I'd like to send...",
       "meaning": "我想寄……",
       "usage": "說明寄件目的",
-      "example": "I'd like to send this package."
+      "example": "I'd like to send this package.",
+      "example_zh": "我想寄這個包裹。"
     },
     {
       "id": "c02",
       "text": "How much does it cost?",
       "meaning": "需要多少錢？",
       "usage": "詢問郵資",
-      "example": "How much does it cost to mail this?"
+      "example": "How much does it cost to mail this?",
+      "example_zh": "寄這個要多少錢？"
     },
     {
       "id": "c03",
       "text": "How long will it take?",
       "meaning": "大約多久會送達？",
       "usage": "詢問時間",
-      "example": "How long will it take to arrive?"
+      "example": "How long will it take to arrive?",
+      "example_zh": "需要多久才會送達？"
     },
     {
       "id": "c04",
       "text": "by express mail",
       "meaning": "用快捷郵件",
       "usage": "選擇服務",
-      "example": "I'd like to send it by express mail."
+      "example": "I'd like to send it by express mail.",
+      "example_zh": "我想用快捷郵件寄送。"
     },
     {
       "id": "c05",
       "text": "Do I need a form?",
       "meaning": "需要填表嗎？",
       "usage": "確認流程",
-      "example": "Do I need a form for this?"
+      "example": "Do I need a form for this?",
+      "example_zh": "這個需要填表格嗎？"
     },
     {
       "id": "c06",
       "text": "Can I track it?",
       "meaning": "可以追蹤嗎？",
       "usage": "詢問追蹤方式",
-      "example": "Can I track this package?"
+      "example": "Can I track this package?",
+      "example_zh": "我可以追蹤這個包裹嗎？"
     }
   ],
   "drills": {

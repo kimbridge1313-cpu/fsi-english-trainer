@@ -22,42 +22,48 @@
       "text": "I have...",
       "meaning": "我有……",
       "usage": "說明身體狀況",
-      "example": "I have a headache."
+      "example": "I have a headache.",
+      "example_zh": "我頭痛。"
     },
     {
       "id": "c02",
       "text": "I've been feeling...",
       "meaning": "我一直感覺……",
       "usage": "描述持續的感受",
-      "example": "I've been feeling tired."
+      "example": "I've been feeling tired.",
+      "example_zh": "我最近一直覺得很累。"
     },
     {
       "id": "c03",
       "text": "for two days",
       "meaning": "持續兩天",
       "usage": "交代持續時間",
-      "example": "I've had a cough for two days."
+      "example": "I've had a cough for two days.",
+      "example_zh": "我已經咳嗽兩天了。"
     },
     {
       "id": "c04",
       "text": "Do I need to...?",
       "meaning": "我需要……嗎？",
       "usage": "詢問流程",
-      "example": "Do I need to fill out a form?"
+      "example": "Do I need to fill out a form?",
+      "example_zh": "我需要填表格嗎？"
     },
     {
       "id": "c05",
       "text": "Could you repeat that?",
       "meaning": "可以再說一次嗎？",
       "usage": "請對方重複",
-      "example": "Could you repeat that, please?"
+      "example": "Could you repeat that, please?",
+      "example_zh": "可以請您再說一次嗎？"
     },
     {
       "id": "c06",
       "text": "What should I do next?",
       "meaning": "接下來我該怎麼做？",
       "usage": "確認下一步",
-      "example": "What should I do next?"
+      "example": "What should I do next?",
+      "example_zh": "接下來我該怎麼做？"
     }
   ],
   "drills": {

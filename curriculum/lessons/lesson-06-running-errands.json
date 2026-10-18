@@ -22,42 +22,48 @@
       "text": "I need to...",
       "meaning": "我需要去……",
       "usage": "表達必須做的事",
-      "example": "I need to stop by the bank."
+      "example": "I need to stop by the bank.",
+      "example_zh": "我需要順道去銀行一趟。"
     },
     {
       "id": "c02",
       "text": "pick up...",
       "meaning": "領取、拿取……",
       "usage": "描述取件",
-      "example": "I need to pick up a package."
+      "example": "I need to pick up a package.",
+      "example_zh": "我需要去領一個包裹。"
     },
     {
       "id": "c03",
       "text": "drop off...",
       "meaning": "送去、放下……",
       "usage": "描述送件",
-      "example": "I need to drop off a letter."
+      "example": "I need to drop off a letter.",
+      "example_zh": "我需要去把一封信送出去。"
     },
     {
       "id": "c04",
       "text": "on my way to...",
       "meaning": "在去……的途中",
       "usage": "描述路線",
-      "example": "I'll stop by the store on my way home."
+      "example": "I'll stop by the store on my way home.",
+      "example_zh": "我回家途中會順道去商店。"
     },
     {
       "id": "c05",
       "text": "before it closes",
       "meaning": "關門之前",
       "usage": "確認時間",
-      "example": "I need to get there before it closes."
+      "example": "I need to get there before it closes.",
+      "example_zh": "我必須在它關門前趕到。"
     },
     {
       "id": "c06",
       "text": "Can we stop by...?",
       "meaning": "我們可以順道去……嗎？",
       "usage": "提出安排",
-      "example": "Can we stop by the pharmacy?"
+      "example": "Can we stop by the pharmacy?",
+      "example_zh": "我們可以順道去藥局嗎？"
     }
   ],
   "drills": {

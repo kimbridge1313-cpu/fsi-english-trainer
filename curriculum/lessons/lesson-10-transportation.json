@@ -22,42 +22,48 @@
       "text": "Does this bus go to...?",
       "meaning": "這班公車有到……嗎？",
       "usage": "確認路線",
-      "example": "Does this bus go to the station?"
+      "example": "Does this bus go to the station?",
+      "example_zh": "這班公車有到車站嗎？"
     },
     {
       "id": "c02",
       "text": "Which stop should I get off at?",
       "meaning": "我該在哪站下車？",
       "usage": "確認下車站",
-      "example": "Which stop should I get off at?"
+      "example": "Which stop should I get off at?",
+      "example_zh": "我應該在哪一站下車？"
     },
     {
       "id": "c03",
       "text": "How much is the fare?",
       "meaning": "車資多少？",
       "usage": "詢問票價",
-      "example": "How much is the fare?"
+      "example": "How much is the fare?",
+      "example_zh": "車資是多少？"
     },
     {
       "id": "c04",
       "text": "the next train",
       "meaning": "下一班火車",
       "usage": "詢問班次",
-      "example": "When is the next train?"
+      "example": "When is the next train?",
+      "example_zh": "下一班火車什麼時候來？"
     },
     {
       "id": "c05",
       "text": "transfer to...",
       "meaning": "轉乘……",
       "usage": "換乘交通工具",
-      "example": "Transfer to the green line."
+      "example": "Transfer to the green line.",
+      "example_zh": "請轉乘綠線。"
     },
     {
       "id": "c06",
       "text": "one-way ticket",
       "meaning": "單程票",
       "usage": "選擇票種",
-      "example": "One one-way ticket, please."
+      "example": "One one-way ticket, please.",
+      "example_zh": "我要一張單程票，謝謝。"
     }
   ],
   "drills": {

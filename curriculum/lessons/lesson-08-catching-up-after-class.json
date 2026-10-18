@@ -22,42 +22,48 @@
       "text": "How was...?",
       "meaning": "……怎麼樣？",
       "usage": "詢問經驗",
-      "example": "How was your class?"
+      "example": "How was your class?",
+      "example_zh": "你今天的課怎麼樣？"
     },
     {
       "id": "c02",
       "text": "It's been a while.",
       "meaning": "好久不見",
       "usage": "重新聯絡",
-      "example": "It's been a while!"
+      "example": "It's been a while!",
+      "example_zh": "好久不見！"
     },
     {
       "id": "c03",
       "text": "I've been busy with...",
       "meaning": "我一直忙著……",
       "usage": "描述近況",
-      "example": "I've been busy with work."
+      "example": "I've been busy with work.",
+      "example_zh": "我最近一直忙著工作。"
     },
     {
       "id": "c04",
       "text": "What have you been up to?",
       "meaning": "你最近在忙什麼？",
       "usage": "詢問近況",
-      "example": "What have you been up to?"
+      "example": "What have you been up to?",
+      "example_zh": "你最近都在忙什麼？"
     },
     {
       "id": "c05",
       "text": "Do you want to catch up?",
       "meaning": "要不要聊聊近況？",
       "usage": "邀約朋友",
-      "example": "Do you want to catch up over coffee?"
+      "example": "Do you want to catch up over coffee?",
+      "example_zh": "要不要一起喝杯咖啡，聊聊近況？"
     },
     {
       "id": "c06",
       "text": "That sounds great.",
       "meaning": "聽起來不錯",
       "usage": "回應提議",
-      "example": "That sounds great."
+      "example": "That sounds great.",
+      "example_zh": "聽起來很不錯。"
     }
   ],
   "drills": {

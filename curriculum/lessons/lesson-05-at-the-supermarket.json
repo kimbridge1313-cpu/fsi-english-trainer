@@ -22,42 +22,48 @@
       "text": "I'm looking for...",
       "meaning": "我在找……",
       "usage": "尋找商品",
-      "example": "I'm looking for brown rice."
+      "example": "I'm looking for brown rice.",
+      "example_zh": "我在找糙米。"
     },
     {
       "id": "c02",
       "text": "Do you have...?",
       "meaning": "你們有……嗎？",
       "usage": "詢問庫存",
-      "example": "Do you have fresh milk?"
+      "example": "Do you have fresh milk?",
+      "example_zh": "你們有鮮奶嗎？"
     },
     {
       "id": "c03",
       "text": "How much is...?",
       "meaning": "……多少錢？",
       "usage": "詢問價格",
-      "example": "How much is this bottle?"
+      "example": "How much is this bottle?",
+      "example_zh": "這一瓶多少錢？"
     },
     {
       "id": "c04",
       "text": "Where can I find...?",
       "meaning": "哪裡可以找到……？",
       "usage": "詢問貨架位置",
-      "example": "Where can I find the eggs?"
+      "example": "Where can I find the eggs?",
+      "example_zh": "雞蛋在哪裡可以找到？"
     },
     {
       "id": "c05",
       "text": "on sale",
       "meaning": "特價中",
       "usage": "理解價格資訊",
-      "example": "These apples are on sale."
+      "example": "These apples are on sale.",
+      "example_zh": "這些蘋果正在特價。"
     },
     {
       "id": "c06",
       "text": "That's everything.",
       "meaning": "就這些了",
       "usage": "結束結帳",
-      "example": "That's everything, thanks."
+      "example": "That's everything, thanks.",
+      "example_zh": "就這些了，謝謝。"
     }
   ],
   "drills": {

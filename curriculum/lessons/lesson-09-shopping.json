@@ -22,42 +22,48 @@
       "text": "Do you have...?",
       "meaning": "你們有……嗎？",
       "usage": "詢問款式或尺寸",
-      "example": "Do you have this in blue?"
+      "example": "Do you have this in blue?",
+      "example_zh": "這個有藍色的嗎？"
     },
     {
       "id": "c02",
       "text": "Can I try it on?",
       "meaning": "可以試穿嗎？",
       "usage": "提出試穿要求",
-      "example": "Can I try it on?"
+      "example": "Can I try it on?",
+      "example_zh": "我可以試穿嗎？"
     },
     {
       "id": "c03",
       "text": "It fits well.",
       "meaning": "這件很合身",
       "usage": "評論尺寸",
-      "example": "It fits well."
+      "example": "It fits well.",
+      "example_zh": "這件很合身。"
     },
     {
       "id": "c04",
       "text": "a smaller size",
       "meaning": "小一號",
       "usage": "修改尺寸",
-      "example": "Do you have a smaller size?"
+      "example": "Do you have a smaller size?",
+      "example_zh": "有小一號的尺寸嗎？"
     },
     {
       "id": "c05",
       "text": "How much is it?",
       "meaning": "這個多少錢？",
       "usage": "詢價",
-      "example": "How much is it?"
+      "example": "How much is it?",
+      "example_zh": "這個多少錢？"
     },
     {
       "id": "c06",
       "text": "I'll take it.",
       "meaning": "我買了",
       "usage": "決定購買",
-      "example": "Great. I'll take it."
+      "example": "Great. I'll take it.",
+      "example_zh": "太好了，我買這個。"
     }
   ],
   "drills": {

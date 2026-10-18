@@ -22,42 +22,48 @@
       "text": "I need help with...",
       "meaning": "我需要協助處理……",
       "usage": "說明求助對象",
-      "example": "I need help with my car."
+      "example": "I need help with my car.",
+      "example_zh": "我的車子出了狀況，需要協助。"
     },
     {
       "id": "c02",
       "text": "I'm calling about...",
       "meaning": "我打電話是關於……",
       "usage": "說明來電原因",
-      "example": "I'm calling about a lost bag."
+      "example": "I'm calling about a lost bag.",
+      "example_zh": "我打電話是想詢問遺失的包包。"
     },
     {
       "id": "c03",
       "text": "I'm at...",
       "meaning": "我位於……",
       "usage": "交代位置",
-      "example": "I'm at the front entrance."
+      "example": "I'm at the front entrance.",
+      "example_zh": "我在正門入口。"
     },
     {
       "id": "c04",
       "text": "Could you send someone?",
       "meaning": "可以派人來嗎？",
       "usage": "請求協助",
-      "example": "Could you send someone, please?"
+      "example": "Could you send someone, please?",
+      "example_zh": "請問可以派人過來嗎？"
     },
     {
       "id": "c05",
       "text": "Please stay on the line.",
       "meaning": "請不要掛線",
       "usage": "確認電話流程",
-      "example": "Okay, I'll stay on the line."
+      "example": "Okay, I'll stay on the line.",
+      "example_zh": "好的，我不會掛電話。"
     },
     {
       "id": "c06",
       "text": "What should I do now?",
       "meaning": "我現在該怎麼做？",
       "usage": "詢問下一步",
-      "example": "What should I do now?"
+      "example": "What should I do now?",
+      "example_zh": "我現在該怎麼做？"
     }
   ],
   "drills": {

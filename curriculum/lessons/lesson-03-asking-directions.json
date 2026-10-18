@@ -22,42 +22,48 @@
       "text": "How do I get to...?",
       "meaning": "我要怎麼去……？",
       "usage": "詢問路線",
-      "example": "How do I get to the station?"
+      "example": "How do I get to the station?",
+      "example_zh": "我要怎麼去車站？"
     },
     {
       "id": "c02",
       "text": "go straight",
       "meaning": "直走",
       "usage": "說明方向",
-      "example": "Go straight for two blocks."
+      "example": "Go straight for two blocks.",
+      "example_zh": "直走兩個街區。"
     },
     {
       "id": "c03",
       "text": "turn left",
       "meaning": "左轉",
       "usage": "轉彎指令",
-      "example": "Turn left at the light."
+      "example": "Turn left at the light.",
+      "example_zh": "在紅綠燈處左轉。"
     },
     {
       "id": "c04",
       "text": "turn right",
       "meaning": "右轉",
       "usage": "轉彎指令",
-      "example": "Turn right at the corner."
+      "example": "Turn right at the corner.",
+      "example_zh": "在轉角右轉。"
     },
     {
       "id": "c05",
       "text": "across from...",
       "meaning": "在……正對面",
       "usage": "描述相對位置",
-      "example": "It's across from the bank."
+      "example": "It's across from the bank.",
+      "example_zh": "它就在銀行正對面。"
     },
     {
       "id": "c06",
       "text": "Is it far from here?",
       "meaning": "離這裡遠嗎？",
       "usage": "詢問距離",
-      "example": "Is it far from here?"
+      "example": "Is it far from here?",
+      "example_zh": "離這裡遠嗎？"
     }
   ],
   "drills": {

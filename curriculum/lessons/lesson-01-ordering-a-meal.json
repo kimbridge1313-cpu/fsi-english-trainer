@@ -23,49 +23,56 @@
       "text": "I'll have...",
       "meaning": "我要點……",
       "usage": "自然地表達自己的點餐選擇",
-      "example": "I'll have iced tea, please."
+      "example": "I'll have iced tea, please.",
+      "example_zh": "我要一杯冰茶，謝謝。"
     },
     {
       "id": "c02",
       "text": "to start",
       "meaning": "先來……（前菜）",
       "usage": "先點一道開胃菜",
-      "example": "I'll have soup to start."
+      "example": "I'll have soup to start.",
+      "example_zh": "我想先來一份湯。"
     },
     {
       "id": "c03",
       "text": "for my main course",
       "meaning": "作為我的主餐",
       "usage": "指定主要餐點",
-      "example": "I'll have the fish for my main course."
+      "example": "I'll have the fish for my main course.",
+      "example_zh": "主餐我要魚料理。"
     },
     {
       "id": "c04",
       "text": "with...",
       "meaning": "搭配……",
       "usage": "加入配菜或其他選項",
-      "example": "I'll have the fish with potatoes."
+      "example": "I'll have the fish with potatoes.",
+      "example_zh": "我要魚料理，搭配馬鈴薯。"
     },
     {
       "id": "c05",
       "text": "instead of...",
       "meaning": "用……取代……",
       "usage": "更換配菜",
-      "example": "Could I have rice instead of fries?"
+      "example": "Could I have rice instead of fries?",
+      "example_zh": "請問可以把薯條換成飯嗎？"
     },
     {
       "id": "c06",
       "text": "Could I have...?",
       "meaning": "請問可以給我……嗎？",
       "usage": "禮貌提出點餐要求",
-      "example": "Could I have iced tea, please?"
+      "example": "Could I have iced tea, please?",
+      "example_zh": "請問可以給我一杯冰茶嗎？"
     },
     {
       "id": "c07",
       "text": "That's all.",
       "meaning": "就這些了",
       "usage": "表達已點完餐",
-      "example": "No, that's all. Thank you."
+      "example": "No, that's all. Thank you.",
+      "example_zh": "不用了，就這些，謝謝。"
     }
   ],
   "drills": {
